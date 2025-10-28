@@ -112,17 +112,17 @@
         "portrait_image": "lisa_blunt_rochester.jpg"
     },
     {
-        "name": "Marco Rubio",
+        "name": "Ashley Moody",
         "party": "Republican",
         "state": "Florida",
-        "seniority": "Senior",
-        "portrait_image": "marco_rubio.jpg"
+        "seniority": "Junior",
+        "portrait_image": "ashley_moody.jpg"
     },
     {
         "name": "Rick Scott",
         "party": "Republican",
         "state": "Florida",
-        "seniority": "Junior",
+        "seniority": "Senior",
         "portrait_image": "rick_scott.jpg"
     },
     {
@@ -699,4 +699,5 @@
         "seniority": "Junior",
         "portrait_image": "cynthia_lummis.jpg"
     }
+
 ]
