@@ -1,0 +1,702 @@
+[
+    {
+        "name": "Tommy Tuberville",
+        "party": "Republican",
+        "state": "Alabama",
+        "seniority": "Senior",
+        "portrait_image": "tommy_tuberville.jpg"
+    },
+    {
+        "name": "Katie Britt",
+        "party": "Republican",
+        "state": "Alabama",
+        "seniority": "Junior",
+        "portrait_image": "katie_britt.jpg"
+    },
+    {
+        "name": "Lisa Murkowski",
+        "party": "Republican",
+        "state": "Alaska",
+        "seniority": "Senior",
+        "portrait_image": "lisa_murkowski.jpg"
+    },
+    {
+        "name": "Dan Sullivan",
+        "party": "Republican",
+        "state": "Alaska",
+        "seniority": "Junior",
+        "portrait_image": "dan_sullivan.jpg"
+    },
+    {
+        "name": "Mark Kelly",
+        "party": "Democrat",
+        "state": "Arizona",
+        "seniority": "Senior",
+        "portrait_image": "mark_kelly.jpg"
+    },
+    {
+        "name": "Ruben Gallego",
+        "party": "Democrat",
+        "state": "Arizona",
+        "seniority": "Junior",
+        "portrait_image": "ruben_gallego.jpg"
+    },
+    {
+        "name": "John Boozman",
+        "party": "Republican",
+        "state": "Arkansas",
+        "seniority": "Senior",
+        "portrait_image": "john_boozman.jpg"
+    },
+    {
+        "name": "Tom Cotton",
+        "party": "Republican",
+        "state": "Arkansas",
+        "seniority": "Junior",
+        "portrait_image": "tom_cotton.jpg"
+    },
+    {
+        "name": "Alex Padilla",
+        "party": "Democrat",
+        "state": "California",
+        "seniority": "Senior",
+        "portrait_image": "alex_padilla.jpg"
+    },
+    {
+        "name": "Adam Schiff",
+        "party": "Democrat",
+        "state": "California",
+        "seniority": "Junior",
+        "portrait_image": "adam_schiff.jpg"
+    },
+    {
+        "name": "Michael Bennet",
+        "party": "Democrat",
+        "state": "Colorado",
+        "seniority": "Senior",
+        "portrait_image": "michael_bennet.jpg"
+    },
+    {
+        "name": "John Hickenlooper",
+        "party": "Democrat",
+        "state": "Colorado",
+        "seniority": "Junior",
+        "portrait_image": "john_hickenlooper.jpg"
+    },
+    {
+        "name": "Richard Blumenthal",
+        "party": "Democrat",
+        "state": "Connecticut",
+        "seniority": "Senior",
+        "portrait_image": "richard_blumenthal.jpg"
+    },
+    {
+        "name": "Chris Murphy",
+        "party": "Democrat",
+        "state": "Connecticut",
+        "seniority": "Junior",
+        "portrait_image": "chris_murphy.jpg"
+    },
+    {
+        "name": "Chris Coons",
+        "party": "Democrat",
+        "state": "Delaware",
+        "seniority": "Senior",
+        "portrait_image": "chris_coons.jpg"
+    },
+    {
+        "name": "Lisa Blunt Rochester",
+        "party": "Democrat",
+        "state": "Delaware",
+        "seniority": "Junior",
+        "portrait_image": "lisa_blunt_rochester.jpg"
+    },
+    {
+        "name": "Marco Rubio",
+        "party": "Republican",
+        "state": "Florida",
+        "seniority": "Senior",
+        "portrait_image": "marco_rubio.jpg"
+    },
+    {
+        "name": "Rick Scott",
+        "party": "Republican",
+        "state": "Florida",
+        "seniority": "Junior",
+        "portrait_image": "rick_scott.jpg"
+    },
+    {
+        "name": "Jon Ossoff",
+        "party": "Democrat",
+        "state": "Georgia",
+        "seniority": "Senior",
+        "portrait_image": "jon_ossoff.jpg"
+    },
+    {
+        "name": "Raphael Warnock",
+        "party": "Democrat",
+        "state": "Georgia",
+        "seniority": "Junior",
+        "portrait_image": "raphael_warnock.jpg"
+    },
+    {
+        "name": "Brian Schatz",
+        "party": "Democrat",
+        "state": "Hawaii",
+        "seniority": "Senior",
+        "portrait_image": "brian_schatz.jpg"
+    },
+    {
+        "name": "Mazie Hirono",
+        "party": "Democrat",
+        "state": "Hawaii",
+        "seniority": "Junior",
+        "portrait_image": "mazie_hirono.jpg"
+    },
+    {
+        "name": "Mike Crapo",
+        "party": "Republican",
+        "state": "Idaho",
+        "seniority": "Senior",
+        "portrait_image": "mike_crapo.jpg"
+    },
+    {
+        "name": "Jim Risch",
+        "party": "Republican",
+        "state": "Idaho",
+        "seniority": "Junior",
+        "portrait_image": "jim_risch.jpg"
+    },
+    {
+        "name": "Dick Durbin",
+        "party": "Democrat",
+        "state": "Illinois",
+        "seniority": "Senior",
+        "portrait_image": "dick_durbin.jpg"
+    },
+    {
+        "name": "Tammy Duckworth",
+        "party": "Democrat",
+        "state": "Illinois",
+        "seniority": "Junior",
+        "portrait_image": "tammy_duckworth.jpg"
+    },
+    {
+        "name": "Todd Young",
+        "party": "Republican",
+        "state": "Indiana",
+        "seniority": "Senior",
+        "portrait_image": "todd_young.jpg"
+    },
+    {
+        "name": "Jim Banks",
+        "party": "Republican",
+        "state": "Indiana",
+        "seniority": "Junior",
+        "portrait_image": "jim_banks.jpg"
+    },
+    {
+        "name": "Chuck Grassley",
+        "party": "Republican",
+        "state": "Iowa",
+        "seniority": "Senior",
+        "portrait_image": "chuck_grassley.jpg"
+    },
+    {
+        "name": "Joni Ernst",
+        "party": "Republican",
+        "state": "Iowa",
+        "seniority": "Junior",
+        "portrait_image": "joni_ernst.jpg"
+    },
+    {
+        "name": "Jerry Moran",
+        "party": "Republican",
+        "state": "Kansas",
+        "seniority": "Senior",
+        "portrait_image": "jerry_moran.jpg"
+    },
+    {
+        "name": "Roger Marshall",
+        "party": "Republican",
+        "state": "Kansas",
+        "seniority": "Junior",
+        "portrait_image": "roger_marshall.jpg"
+    },
+    {
+        "name": "Mitch McConnell",
+        "party": "Republican",
+        "state": "Kentucky",
+        "seniority": "Senior",
+        "portrait_image": "mitch_mcconnell.jpg"
+    },
+    {
+        "name": "Rand Paul",
+        "party": "Republican",
+        "state": "Kentucky",
+        "seniority": "Junior",
+        "portrait_image": "rand_paul.jpg"
+    },
+    {
+        "name": "Bill Cassidy",
+        "party": "Republican",
+        "state": "Louisiana",
+        "seniority": "Senior",
+        "portrait_image": "bill_cassidy.jpg"
+    },
+    {
+        "name": "John Kennedy",
+        "party": "Republican",
+        "state": "Louisiana",
+        "seniority": "Junior",
+        "portrait_image": "john_kennedy.jpg"
+    },
+    {
+        "name": "Susan Collins",
+        "party": "Republican",
+        "state": "Maine",
+        "seniority": "Senior",
+        "portrait_image": "susan_collins.jpg"
+    },
+    {
+        "name": "Angus King",
+        "party": "Independent",
+        "state": "Maine",
+        "seniority": "Junior",
+        "portrait_image": "angus_king.jpg"
+    },
+    {
+        "name": "Chris Van Hollen",
+        "party": "Democrat",
+        "state": "Maryland",
+        "seniority": "Senior",
+        "portrait_image": "chris_van_hollen.jpg"
+    },
+    {
+        "name": "Angela Alsobrooks",
+        "party": "Democrat",
+        "state": "Maryland",
+        "seniority": "Junior",
+        "portrait_image": "angela_alsobrooks.jpg"
+    },
+    {
+        "name": "Elizabeth Warren",
+        "party": "Democrat",
+        "state": "Massachusetts",
+        "seniority": "Senior",
+        "portrait_image": "elizabeth_warren.jpg"
+    },
+    {
+        "name": "Ed Markey",
+        "party": "Democrat",
+        "state": "Massachusetts",
+        "seniority": "Junior",
+        "portrait_image": "ed_markey.jpg"
+    },
+    {
+        "name": "Gary Peters",
+        "party": "Democrat",
+        "state": "Michigan",
+        "seniority": "Senior",
+        "portrait_image": "gary_peters.jpg"
+    },
+    {
+        "name": "Elissa Slotkin",
+        "party": "Democrat",
+        "state": "Michigan",
+        "seniority": "Junior",
+        "portrait_image": "elissa_slotkin.jpg"
+    },
+    {
+        "name": "Amy Klobuchar",
+        "party": "Democrat",
+        "state": "Minnesota",
+        "seniority": "Senior",
+        "portrait_image": "amy_klobuchar.jpg"
+    },
+    {
+        "name": "Tina Smith",
+        "party": "Democrat",
+        "state": "Minnesota",
+        "seniority": "Junior",
+        "portrait_image": "tina_smith.jpg"
+    },
+    {
+        "name": "Roger Wicker",
+        "party": "Republican",
+        "state": "Mississippi",
+        "seniority": "Senior",
+        "portrait_image": "roger_wicker.jpg"
+    },
+    {
+        "name": "Cindy Hyde-Smith",
+        "party": "Republican",
+        "state": "Mississippi",
+        "seniority": "Junior",
+        "portrait_image": "cindy_hyde-smith.jpg"
+    },
+    {
+        "name": "Josh Hawley",
+        "party": "Republican",
+        "state": "Missouri",
+        "seniority": "Senior",
+        "portrait_image": "josh_hawley.jpg"
+    },
+    {
+        "name": "Eric Schmitt",
+        "party": "Republican",
+        "state": "Missouri",
+        "seniority": "Junior",
+        "portrait_image": "eric_schmitt.jpg"
+    },
+    {
+        "name": "Steve Daines",
+        "party": "Republican",
+        "state": "Montana",
+        "seniority": "Senior",
+        "portrait_image": "steve_daines.jpg"
+    },
+    {
+        "name": "Tim Sheehy",
+        "party": "Republican",
+        "state": "Montana",
+        "seniority": "Junior",
+        "portrait_image": "tim_sheehy.jpg"
+    },
+    {
+        "name": "Deb Fischer",
+        "party": "Republican",
+        "state": "Nebraska",
+        "seniority": "Senior",
+        "portrait_image": "deb_fischer.jpg"
+    },
+    {
+        "name": "Pete Ricketts",
+        "party": "Republican",
+        "state": "Nebraska",
+        "seniority": "Junior",
+        "portrait_image": "pete_ricketts.jpg"
+    },
+    {
+        "name": "Catherine Cortez Masto",
+        "party": "Democrat",
+        "state": "Nevada",
+        "seniority": "Senior",
+        "portrait_image": "catherine_cortez_masto.jpg"
+    },
+    {
+        "name": "Jacky Rosen",
+        "party": "Democrat",
+        "state": "Nevada",
+        "seniority": "Junior",
+        "portrait_image": "jacky_rosen.jpg"
+    },
+    {
+        "name": "Jeanne Shaheen",
+        "party": "Democrat",
+        "state": "New Hampshire",
+        "seniority": "Senior",
+        "portrait_image": "jeanne_shaheen.jpg"
+    },
+    {
+        "name": "Maggie Hassan",
+        "party": "Democrat",
+        "state": "New Hampshire",
+        "seniority": "Junior",
+        "portrait_image": "maggie_hassan.jpg"
+    },
+    {
+        "name": "Cory Booker",
+        "party": "Democrat",
+        "state": "New Jersey",
+        "seniority": "Senior",
+        "portrait_image": "cory_booker.jpg"
+    },
+    {
+        "name": "Andy Kim",
+        "party": "Democrat",
+        "state": "New Jersey",
+        "seniority": "Junior",
+        "portrait_image": "andy_kim.jpg"
+    },
+    {
+        "name": "Martin Heinrich",
+        "party": "Democrat",
+        "state": "New Mexico",
+        "seniority": "Senior",
+        "portrait_image": "martin_heinrich.jpg"
+    },
+    {
+        "name": "Ben Ray Luján",
+        "party": "Democrat",
+        "state": "New Mexico",
+        "seniority": "Junior",
+        "portrait_image": "ben_ray_lujan.jpg"
+    },
+    {
+        "name": "Chuck Schumer",
+        "party": "Democrat",
+        "state": "New York",
+        "seniority": "Senior",
+        "portrait_image": "chuck_schumer.jpg"
+    },
+    {
+        "name": "Kirsten Gillibrand",
+        "party": "Democrat",
+        "state": "New York",
+        "seniority": "Junior",
+        "portrait_image": "kirsten_gillibrand.jpg"
+    },
+    {
+        "name": "Thom Tillis",
+        "party": "Republican",
+        "state": "North Carolina",
+        "seniority": "Senior",
+        "portrait_image": "thom_tillis.jpg"
+    },
+    {
+        "name": "Ted Budd",
+        "party": "Republican",
+        "state": "North Carolina",
+        "seniority": "Junior",
+        "portrait_image": "ted_budd.jpg"
+    },
+    {
+        "name": "John Hoeven",
+        "party": "Republican",
+        "state": "North Dakota",
+        "seniority": "Senior",
+        "portrait_image": "john_hoeven.jpg"
+    },
+    {
+        "name": "Kevin Cramer",
+        "party": "Republican",
+        "state": "North Dakota",
+        "seniority": "Junior",
+        "portrait_image": "kevin_cramer.jpg"
+    },
+    {
+        "name": "Jon Husted",
+        "party": "Republican",
+        "state": "Ohio",
+        "seniority": "Junior",
+        "portrait_image": "jon_husted.jpg"
+    },
+    {
+        "name": "Bernie Moreno",
+        "party": "Republican",
+        "state": "Ohio",
+        "seniority": "Senior",
+        "portrait_image": "bernie_moreno.jpg"
+    },
+    {
+        "name": "James Lankford",
+        "party": "Republican",
+        "state": "Oklahoma",
+        "seniority": "Senior",
+        "portrait_image": "james_lankford.jpg"
+    },
+    {
+        "name": "Markwayne Mullin",
+        "party": "Republican",
+        "state": "Oklahoma",
+        "seniority": "Junior",
+        "portrait_image": "markwayne_mullin.jpg"
+    },
+    {
+        "name": "Ron Wyden",
+        "party": "Democrat",
+        "state": "Oregon",
+        "seniority": "Senior",
+        "portrait_image": "ron_wyden.jpg"
+    },
+    {
+        "name": "Jeff Merkley",
+        "party": "Democrat",
+        "state": "Oregon",
+        "seniority": "Junior",
+        "portrait_image": "jeff_merkley.jpg"
+    },
+    {
+        "name": "John Fetterman",
+        "party": "Democrat",
+        "state": "Pennsylvania",
+        "seniority": "Senior",
+        "portrait_image": "john_fetterman.jpg"
+    },
+    {
+        "name": "Dave McCormick",
+        "party": "Republican",
+        "state": "Pennsylvania",
+        "seniority": "Junior",
+        "portrait_image": "dave_mccormick.jpg"
+    },
+    {
+        "name": "Jack Reed",
+        "party": "Democrat",
+        "state": "Rhode Island",
+        "seniority": "Senior",
+        "portrait_image": "jack_reed.jpg"
+    },
+    {
+        "name": "Sheldon Whitehouse",
+        "party": "Democrat",
+        "state": "Rhode Island",
+        "seniority": "Junior",
+        "portrait_image": "sheldon_whitehouse.jpg"
+    },
+    {
+        "name": "Lindsey Graham",
+        "party": "Republican",
+        "state": "South Carolina",
+        "seniority": "Senior",
+        "portrait_image": "lindsey_graham.jpg"
+    },
+    {
+        "name": "Tim Scott",
+        "party": "Republican",
+        "state": "South Carolina",
+        "seniority": "Junior",
+        "portrait_image": "tim_scott.jpg"
+    },
+    {
+        "name": "John Thune",
+        "party": "Republican",
+        "state": "South Dakota",
+        "seniority": "Senior",
+        "portrait_image": "john_thune.jpg"
+    },
+    {
+        "name": "Mike Rounds",
+        "party": "Republican",
+        "state": "South Dakota",
+        "seniority": "Junior",
+        "portrait_image": "mike_rounds.jpg"
+    },
+    {
+        "name": "Marsha Blackburn",
+        "party": "Republican",
+        "state": "Tennessee",
+        "seniority": "Senior",
+        "portrait_image": "marsha_blackburn.jpg"
+    },
+    {
+        "name": "Bill Hagerty",
+        "party": "Republican",
+        "state": "Tennessee",
+        "seniority": "Junior",
+        "portrait_image": "bill_hagerty.jpg"
+    },
+    {
+        "name": "John Cornyn",
+        "party": "Republican",
+        "state": "Texas",
+        "seniority": "Senior",
+        "portrait_image": "john_cornyn.jpg"
+    },
+    {
+        "name": "Ted Cruz",
+        "party": "Republican",
+        "state": "Texas",
+        "seniority": "Junior",
+        "portrait_image": "ted_cruz.jpg"
+    },
+    {
+        "name": "Mike Lee",
+        "party": "Republican",
+        "state": "Utah",
+        "seniority": "Senior",
+        "portrait_image": "mike_lee.jpg"
+    },
+    {
+        "name": "John Curtis",
+        "party": "Republican",
+        "state": "Utah",
+        "seniority": "Junior",
+        "portrait_image": "john_curtis.jpg"
+    },
+    {
+        "name": "Bernie Sanders",
+        "party": "Independent",
+        "state": "Vermont",
+        "seniority": "Senior",
+        "portrait_image": "bernie_sanders.jpg"
+    },
+    {
+        "name": "Peter Welch",
+        "party": "Democrat",
+        "state": "Vermont",
+        "seniority": "Junior",
+        "portrait_image": "peter_welch.jpg"
+    },
+    {
+        "name": "Mark Warner",
+        "party": "Democrat",
+        "state": "Virginia",
+        "seniority": "Senior",
+        "portrait_image": "mark_warner.jpg"
+    },
+    {
+        "name": "Tim Kaine",
+        "party": "Democrat",
+        "state": "Virginia",
+        "seniority": "Junior",
+        "portrait_image": "tim_kaine.jpg"
+    },
+    {
+        "name": "Patty Murray",
+        "party": "Democrat",
+        "state": "Washington",
+        "seniority": "Senior",
+        "portrait_image": "patty_murray.jpg"
+    },
+    {
+        "name": "Maria Cantwell",
+        "party": "Democrat",
+        "state": "Washington",
+        "seniority": "Junior",
+        "portrait_image": "maria_cantwell.jpg"
+    },
+    {
+        "name": "Shelley Moore Capito",
+        "party": "Republican",
+        "state": "West Virginia",
+        "seniority": "Senior",
+        "portrait_image": "shelley_moore_capito.jpg"
+    },
+    {
+        "name": "Jim Justice",
+        "party": "Republican",
+        "state": "West Virginia",
+        "seniority": "Junior",
+        "portrait_image": "jim_justice.jpg"
+    },
+    {
+        "name": "Ron Johnson",
+        "party": "Republican",
+        "state": "Wisconsin",
+        "seniority": "Senior",
+        "portrait_image": "ron_johnson.jpg"
+    },
+    {
+        "name": "Tammy Baldwin",
+        "party": "Democrat",
+        "state": "Wisconsin",
+        "seniority": "Junior",
+        "portrait_image": "tammy_baldwin.jpg"
+    },
+    {
+        "name": "John Barrasso",
+        "party": "Republican",
+        "state": "Wyoming",
+        "seniority": "Senior",
+        "portrait_image": "john_barrasso.jpg"
+    },
+    {
+        "name": "Cynthia Lummis",
+        "party": "Republican",
+        "state": "Wyoming",
+        "seniority": "Junior",
+        "portrait_image": "cynthia_lummis.jpg"
+    }
+]

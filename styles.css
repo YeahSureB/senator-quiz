@@ -1,0 +1,143 @@
+/* Reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    text-align: center;
+}
+
+#validation-note {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+h1,
+h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+button {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background 0.15s ease;
+}
+
+button:hover {
+    background: #e5e5e5;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.senator-portrait {
+    max-width: 220px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+#results-summary .results-score {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+#results-summary .results-time {
+    margin-bottom: 1rem;
+}
+
+#results-summary .result-row {
+    text-align: left;
+    border-top: 1px solid #eee;
+    padding: 0.75rem 0.25rem;
+}
+
+.result-row .question-label {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.result-row .feedback-text {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.25rem;
+}
+
+#progress {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.question-block {
+    font-size: 1.15rem;
+    line-height: 1.5;
+    min-height: 50px;
+    /* Prevents layout jump */
+}
+.question-block {
+    transition: background-color 200ms ease, border-color 200ms ease;
+}
+
+.question-block.correct {
+    background-color: rgba(0, 160, 0, 0.1);
+    border-color: #0a0;
+}
+
+.question-block.incorrect {
+    background-color: rgba(200, 0, 0, 0.1);
+    border-color: #c00;
+}
+
+.correct-reveal {
+    font-size: 0.95rem;
+    opacity: 0.95;
+    transition: opacity 400ms ease;
+    margin-top: 6px;
+}
+
+.correct-reveal.fade-out {
+    opacity: 0;
+}

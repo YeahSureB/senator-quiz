@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U.S. Senator Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="app">
+        <!-- Screens will be dynamically swapped in via JS -->
+        <div id="screen-start" class="screen active">
+            <h1>U.S. Senator Quiz</h1>
+            <p>Select difficulty to begin:</p>
+            <button data-mode="Easy" class="mode-btn">Easy</button>
+            <button data-mode="Hard" class="mode-btn">Hard</button>
+        </div>
+
+        <div id="screen-quiz" class="screen hidden">
+            <div id="progress"></div>
+            <div id="question-area"></div>
+            <input id="answer-input" type="text" placeholder="Type your answer..." autocomplete="off" />
+            <button id="submit-answer">Submit</button>
+        </div>
+
+        <div id="screen-results" class="screen hidden">
+            <h2>Results</h2>
+            <div id="results-summary"></div>
+            <button id="restart">Play Again</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
