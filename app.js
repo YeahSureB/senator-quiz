@@ -488,26 +488,23 @@
             );
             if (matchesByLast.length === 1 && last) {
                 logValidation("Easy: last name accepted.");
-                return ok("last_name", "Accepted in Easy mode: last name.");
+                return ok("last_name", "Correct.");
             }
 
-            // mild misspelling tolerance against full names
             for (const ans of question.correct_answers) {
                 if (withinMisspellingThreshold(inputNorm, ans)) {
                     logValidation("Easy: mild misspelling of full name accepted.");
-                    return ok("misspelling_correction", `Accepted in Easy mode: close to '${ans}'.`);
+                    return ok("misspelling_correction", "Correct.");
                 }
             }
 
-            // mild misspelling against last names
             for (const ans of question.correct_answers) {
                 if (withinMisspellingThreshold(last, lastNameOf(ans)) && last) {
                     logValidation("Easy: mild misspelling of last name accepted.");
-                    return ok(
-                        "misspelling_correction",
-                        `Accepted in Easy mode: close to last name '${lastNameOf(ans)}'.`
-                    );
+                    return ok("misspelling_correction", "Correct.");
                 }
+            }
+
             }
 
             // ambiguous last name in Easy (multiple)
@@ -945,3 +942,4 @@
     // ---------- BOOT ----------
     UI.init();
 })();
+
