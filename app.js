@@ -658,16 +658,26 @@
 
                 // Derive a display answer
                 const qObj = GameState.state.questions.find(x => x.id === ua.question_id) || q;
-                const pretty =
-                    (qObj.correct_answers && qObj.correct_answers[0]) ||
-                    qObj.display_answer ||
-                    "See results";
+                let pretty = "See results";
+                if (qObj.correct_answers && qObj.correct_answers.length > 0) {
+                  const list = qObj.correct_answers;
+                  if (list.length === 1) {
+                    pretty = list[0];
+                  } else if (list.length === 2) {
+                    pretty = `${list[0]} or ${list[1]}`;
+                  } else {
+                    pretty = list.join(", ");
+                  }
+                } else if (qObj.display_answer) {
+                  pretty = qObj.display_answer;
+                }
 
                 revealEl = document.createElement("div");
                 revealEl.className = "correct-reveal";
                 revealEl.setAttribute("aria-live", "polite");
                 revealEl.textContent = `Correct: ${pretty}`;
                 block.appendChild(revealEl);
+
             }
 
             // Advance handlers
@@ -942,4 +952,5 @@
     // ---------- BOOT ----------
     UI.init();
 })();
+
 
