@@ -1,703 +1,151 @@
 [
-    {
-        "name": "Tommy Tuberville",
-        "party": "Republican",
-        "state": "Alabama",
-        "seniority": "Senior",
-        "portrait_image": "tommy_tuberville.jpg"
-    },
-    {
-        "name": "Katie Britt",
-        "party": "Republican",
-        "state": "Alabama",
-        "seniority": "Junior",
-        "portrait_image": "katie_britt.jpg"
-    },
-    {
-        "name": "Lisa Murkowski",
-        "party": "Republican",
-        "state": "Alaska",
-        "seniority": "Senior",
-        "portrait_image": "lisa_murkowski.jpg"
-    },
-    {
-        "name": "Dan Sullivan",
-        "party": "Republican",
-        "state": "Alaska",
-        "seniority": "Junior",
-        "portrait_image": "dan_sullivan.jpg"
-    },
-    {
-        "name": "Mark Kelly",
-        "party": "Democrat",
-        "state": "Arizona",
-        "seniority": "Senior",
-        "portrait_image": "mark_kelly.jpg"
-    },
-    {
-        "name": "Ruben Gallego",
-        "party": "Democrat",
-        "state": "Arizona",
-        "seniority": "Junior",
-        "portrait_image": "ruben_gallego.jpg"
-    },
-    {
-        "name": "John Boozman",
-        "party": "Republican",
-        "state": "Arkansas",
-        "seniority": "Senior",
-        "portrait_image": "john_boozman.jpg"
-    },
-    {
-        "name": "Tom Cotton",
-        "party": "Republican",
-        "state": "Arkansas",
-        "seniority": "Junior",
-        "portrait_image": "tom_cotton.jpg"
-    },
-    {
-        "name": "Alex Padilla",
-        "party": "Democrat",
-        "state": "California",
-        "seniority": "Senior",
-        "portrait_image": "alex_padilla.jpg"
-    },
-    {
-        "name": "Adam Schiff",
-        "party": "Democrat",
-        "state": "California",
-        "seniority": "Junior",
-        "portrait_image": "adam_schiff.jpg"
-    },
-    {
-        "name": "Michael Bennet",
-        "party": "Democrat",
-        "state": "Colorado",
-        "seniority": "Senior",
-        "portrait_image": "michael_bennet.jpg"
-    },
-    {
-        "name": "John Hickenlooper",
-        "party": "Democrat",
-        "state": "Colorado",
-        "seniority": "Junior",
-        "portrait_image": "john_hickenlooper.jpg"
-    },
-    {
-        "name": "Richard Blumenthal",
-        "party": "Democrat",
-        "state": "Connecticut",
-        "seniority": "Senior",
-        "portrait_image": "richard_blumenthal.jpg"
-    },
-    {
-        "name": "Chris Murphy",
-        "party": "Democrat",
-        "state": "Connecticut",
-        "seniority": "Junior",
-        "portrait_image": "chris_murphy.jpg"
-    },
-    {
-        "name": "Chris Coons",
-        "party": "Democrat",
-        "state": "Delaware",
-        "seniority": "Senior",
-        "portrait_image": "chris_coons.jpg"
-    },
-    {
-        "name": "Lisa Blunt Rochester",
-        "party": "Democrat",
-        "state": "Delaware",
-        "seniority": "Junior",
-        "portrait_image": "lisa_blunt_rochester.jpg"
-    },
-    {
-        "name": "Ashley Moody",
-        "party": "Republican",
-        "state": "Florida",
-        "seniority": "Junior",
-        "portrait_image": "ashley_moody.jpg"
-    },
-    {
-        "name": "Rick Scott",
-        "party": "Republican",
-        "state": "Florida",
-        "seniority": "Senior",
-        "portrait_image": "rick_scott.jpg"
-    },
-    {
-        "name": "Jon Ossoff",
-        "party": "Democrat",
-        "state": "Georgia",
-        "seniority": "Senior",
-        "portrait_image": "jon_ossoff.jpg"
-    },
-    {
-        "name": "Raphael Warnock",
-        "party": "Democrat",
-        "state": "Georgia",
-        "seniority": "Junior",
-        "portrait_image": "raphael_warnock.jpg"
-    },
-    {
-        "name": "Brian Schatz",
-        "party": "Democrat",
-        "state": "Hawaii",
-        "seniority": "Senior",
-        "portrait_image": "brian_schatz.jpg"
-    },
-    {
-        "name": "Mazie Hirono",
-        "party": "Democrat",
-        "state": "Hawaii",
-        "seniority": "Junior",
-        "portrait_image": "mazie_hirono.jpg"
-    },
-    {
-        "name": "Mike Crapo",
-        "party": "Republican",
-        "state": "Idaho",
-        "seniority": "Senior",
-        "portrait_image": "mike_crapo.jpg"
-    },
-    {
-        "name": "Jim Risch",
-        "party": "Republican",
-        "state": "Idaho",
-        "seniority": "Junior",
-        "portrait_image": "jim_risch.jpg"
-    },
-    {
-        "name": "Dick Durbin",
-        "party": "Democrat",
-        "state": "Illinois",
-        "seniority": "Senior",
-        "portrait_image": "dick_durbin.jpg"
-    },
-    {
-        "name": "Tammy Duckworth",
-        "party": "Democrat",
-        "state": "Illinois",
-        "seniority": "Junior",
-        "portrait_image": "tammy_duckworth.jpg"
-    },
-    {
-        "name": "Todd Young",
-        "party": "Republican",
-        "state": "Indiana",
-        "seniority": "Senior",
-        "portrait_image": "todd_young.jpg"
-    },
-    {
-        "name": "Jim Banks",
-        "party": "Republican",
-        "state": "Indiana",
-        "seniority": "Junior",
-        "portrait_image": "jim_banks.jpg"
-    },
-    {
-        "name": "Chuck Grassley",
-        "party": "Republican",
-        "state": "Iowa",
-        "seniority": "Senior",
-        "portrait_image": "chuck_grassley.jpg"
-    },
-    {
-        "name": "Joni Ernst",
-        "party": "Republican",
-        "state": "Iowa",
-        "seniority": "Junior",
-        "portrait_image": "joni_ernst.jpg"
-    },
-    {
-        "name": "Jerry Moran",
-        "party": "Republican",
-        "state": "Kansas",
-        "seniority": "Senior",
-        "portrait_image": "jerry_moran.jpg"
-    },
-    {
-        "name": "Roger Marshall",
-        "party": "Republican",
-        "state": "Kansas",
-        "seniority": "Junior",
-        "portrait_image": "roger_marshall.jpg"
-    },
-    {
-        "name": "Mitch McConnell",
-        "party": "Republican",
-        "state": "Kentucky",
-        "seniority": "Senior",
-        "portrait_image": "mitch_mcconnell.jpg"
-    },
-    {
-        "name": "Rand Paul",
-        "party": "Republican",
-        "state": "Kentucky",
-        "seniority": "Junior",
-        "portrait_image": "rand_paul.jpg"
-    },
-    {
-        "name": "Bill Cassidy",
-        "party": "Republican",
-        "state": "Louisiana",
-        "seniority": "Senior",
-        "portrait_image": "bill_cassidy.jpg"
-    },
-    {
-        "name": "John Kennedy",
-        "party": "Republican",
-        "state": "Louisiana",
-        "seniority": "Junior",
-        "portrait_image": "john_kennedy.jpg"
-    },
-    {
-        "name": "Susan Collins",
-        "party": "Republican",
-        "state": "Maine",
-        "seniority": "Senior",
-        "portrait_image": "susan_collins.jpg"
-    },
-    {
-        "name": "Angus King",
-        "party": "Independent",
-        "state": "Maine",
-        "seniority": "Junior",
-        "portrait_image": "angus_king.jpg"
-    },
-    {
-        "name": "Chris Van Hollen",
-        "party": "Democrat",
-        "state": "Maryland",
-        "seniority": "Senior",
-        "portrait_image": "chris_van_hollen.jpg"
-    },
-    {
-        "name": "Angela Alsobrooks",
-        "party": "Democrat",
-        "state": "Maryland",
-        "seniority": "Junior",
-        "portrait_image": "angela_alsobrooks.jpg"
-    },
-    {
-        "name": "Elizabeth Warren",
-        "party": "Democrat",
-        "state": "Massachusetts",
-        "seniority": "Senior",
-        "portrait_image": "elizabeth_warren.jpg"
-    },
-    {
-        "name": "Ed Markey",
-        "party": "Democrat",
-        "state": "Massachusetts",
-        "seniority": "Junior",
-        "portrait_image": "ed_markey.jpg"
-    },
-    {
-        "name": "Gary Peters",
-        "party": "Democrat",
-        "state": "Michigan",
-        "seniority": "Senior",
-        "portrait_image": "gary_peters.jpg"
-    },
-    {
-        "name": "Elissa Slotkin",
-        "party": "Democrat",
-        "state": "Michigan",
-        "seniority": "Junior",
-        "portrait_image": "elissa_slotkin.jpg"
-    },
-    {
-        "name": "Amy Klobuchar",
-        "party": "Democrat",
-        "state": "Minnesota",
-        "seniority": "Senior",
-        "portrait_image": "amy_klobuchar.jpg"
-    },
-    {
-        "name": "Tina Smith",
-        "party": "Democrat",
-        "state": "Minnesota",
-        "seniority": "Junior",
-        "portrait_image": "tina_smith.jpg"
-    },
-    {
-        "name": "Roger Wicker",
-        "party": "Republican",
-        "state": "Mississippi",
-        "seniority": "Senior",
-        "portrait_image": "roger_wicker.jpg"
-    },
-    {
-        "name": "Cindy Hyde-Smith",
-        "party": "Republican",
-        "state": "Mississippi",
-        "seniority": "Junior",
-        "portrait_image": "cindy_hyde-smith.jpg"
-    },
-    {
-        "name": "Josh Hawley",
-        "party": "Republican",
-        "state": "Missouri",
-        "seniority": "Senior",
-        "portrait_image": "josh_hawley.jpg"
-    },
-    {
-        "name": "Eric Schmitt",
-        "party": "Republican",
-        "state": "Missouri",
-        "seniority": "Junior",
-        "portrait_image": "eric_schmitt.jpg"
-    },
-    {
-        "name": "Steve Daines",
-        "party": "Republican",
-        "state": "Montana",
-        "seniority": "Senior",
-        "portrait_image": "steve_daines.jpg"
-    },
-    {
-        "name": "Tim Sheehy",
-        "party": "Republican",
-        "state": "Montana",
-        "seniority": "Junior",
-        "portrait_image": "tim_sheehy.jpg"
-    },
-    {
-        "name": "Deb Fischer",
-        "party": "Republican",
-        "state": "Nebraska",
-        "seniority": "Senior",
-        "portrait_image": "deb_fischer.jpg"
-    },
-    {
-        "name": "Pete Ricketts",
-        "party": "Republican",
-        "state": "Nebraska",
-        "seniority": "Junior",
-        "portrait_image": "pete_ricketts.jpg"
-    },
-    {
-        "name": "Catherine Cortez Masto",
-        "party": "Democrat",
-        "state": "Nevada",
-        "seniority": "Senior",
-        "portrait_image": "catherine_cortez_masto.jpg"
-    },
-    {
-        "name": "Jacky Rosen",
-        "party": "Democrat",
-        "state": "Nevada",
-        "seniority": "Junior",
-        "portrait_image": "jacky_rosen.jpg"
-    },
-    {
-        "name": "Jeanne Shaheen",
-        "party": "Democrat",
-        "state": "New Hampshire",
-        "seniority": "Senior",
-        "portrait_image": "jeanne_shaheen.jpg"
-    },
-    {
-        "name": "Maggie Hassan",
-        "party": "Democrat",
-        "state": "New Hampshire",
-        "seniority": "Junior",
-        "portrait_image": "maggie_hassan.jpg"
-    },
-    {
-        "name": "Cory Booker",
-        "party": "Democrat",
-        "state": "New Jersey",
-        "seniority": "Senior",
-        "portrait_image": "cory_booker.jpg"
-    },
-    {
-        "name": "Andy Kim",
-        "party": "Democrat",
-        "state": "New Jersey",
-        "seniority": "Junior",
-        "portrait_image": "andy_kim.jpg"
-    },
-    {
-        "name": "Martin Heinrich",
-        "party": "Democrat",
-        "state": "New Mexico",
-        "seniority": "Senior",
-        "portrait_image": "martin_heinrich.jpg"
-    },
-    {
-        "name": "Ben Ray Luján",
-        "party": "Democrat",
-        "state": "New Mexico",
-        "seniority": "Junior",
-        "portrait_image": "ben_ray_lujan.jpg"
-    },
-    {
-        "name": "Chuck Schumer",
-        "party": "Democrat",
-        "state": "New York",
-        "seniority": "Senior",
-        "portrait_image": "chuck_schumer.jpg"
-    },
-    {
-        "name": "Kirsten Gillibrand",
-        "party": "Democrat",
-        "state": "New York",
-        "seniority": "Junior",
-        "portrait_image": "kirsten_gillibrand.jpg"
-    },
-    {
-        "name": "Thom Tillis",
-        "party": "Republican",
-        "state": "North Carolina",
-        "seniority": "Senior",
-        "portrait_image": "thom_tillis.jpg"
-    },
-    {
-        "name": "Ted Budd",
-        "party": "Republican",
-        "state": "North Carolina",
-        "seniority": "Junior",
-        "portrait_image": "ted_budd.jpg"
-    },
-    {
-        "name": "John Hoeven",
-        "party": "Republican",
-        "state": "North Dakota",
-        "seniority": "Senior",
-        "portrait_image": "john_hoeven.jpg"
-    },
-    {
-        "name": "Kevin Cramer",
-        "party": "Republican",
-        "state": "North Dakota",
-        "seniority": "Junior",
-        "portrait_image": "kevin_cramer.jpg"
-    },
-    {
-        "name": "Jon Husted",
-        "party": "Republican",
-        "state": "Ohio",
-        "seniority": "Junior",
-        "portrait_image": "jon_husted.jpg"
-    },
-    {
-        "name": "Bernie Moreno",
-        "party": "Republican",
-        "state": "Ohio",
-        "seniority": "Senior",
-        "portrait_image": "bernie_moreno.jpg"
-    },
-    {
-        "name": "James Lankford",
-        "party": "Republican",
-        "state": "Oklahoma",
-        "seniority": "Senior",
-        "portrait_image": "james_lankford.jpg"
-    },
-    {
-        "name": "Markwayne Mullin",
-        "party": "Republican",
-        "state": "Oklahoma",
-        "seniority": "Junior",
-        "portrait_image": "markwayne_mullin.jpg"
-    },
-    {
-        "name": "Ron Wyden",
-        "party": "Democrat",
-        "state": "Oregon",
-        "seniority": "Senior",
-        "portrait_image": "ron_wyden.jpg"
-    },
-    {
-        "name": "Jeff Merkley",
-        "party": "Democrat",
-        "state": "Oregon",
-        "seniority": "Junior",
-        "portrait_image": "jeff_merkley.jpg"
-    },
-    {
-        "name": "John Fetterman",
-        "party": "Democrat",
-        "state": "Pennsylvania",
-        "seniority": "Senior",
-        "portrait_image": "john_fetterman.jpg"
-    },
-    {
-        "name": "Dave McCormick",
-        "party": "Republican",
-        "state": "Pennsylvania",
-        "seniority": "Junior",
-        "portrait_image": "dave_mccormick.jpg"
-    },
-    {
-        "name": "Jack Reed",
-        "party": "Democrat",
-        "state": "Rhode Island",
-        "seniority": "Senior",
-        "portrait_image": "jack_reed.jpg"
-    },
-    {
-        "name": "Sheldon Whitehouse",
-        "party": "Democrat",
-        "state": "Rhode Island",
-        "seniority": "Junior",
-        "portrait_image": "sheldon_whitehouse.jpg"
-    },
-    {
-        "name": "Lindsey Graham",
-        "party": "Republican",
-        "state": "South Carolina",
-        "seniority": "Senior",
-        "portrait_image": "lindsey_graham.jpg"
-    },
-    {
-        "name": "Tim Scott",
-        "party": "Republican",
-        "state": "South Carolina",
-        "seniority": "Junior",
-        "portrait_image": "tim_scott.jpg"
-    },
-    {
-        "name": "John Thune",
-        "party": "Republican",
-        "state": "South Dakota",
-        "seniority": "Senior",
-        "portrait_image": "john_thune.jpg"
-    },
-    {
-        "name": "Mike Rounds",
-        "party": "Republican",
-        "state": "South Dakota",
-        "seniority": "Junior",
-        "portrait_image": "mike_rounds.jpg"
-    },
-    {
-        "name": "Marsha Blackburn",
-        "party": "Republican",
-        "state": "Tennessee",
-        "seniority": "Senior",
-        "portrait_image": "marsha_blackburn.jpg"
-    },
-    {
-        "name": "Bill Hagerty",
-        "party": "Republican",
-        "state": "Tennessee",
-        "seniority": "Junior",
-        "portrait_image": "bill_hagerty.jpg"
-    },
-    {
-        "name": "John Cornyn",
-        "party": "Republican",
-        "state": "Texas",
-        "seniority": "Senior",
-        "portrait_image": "john_cornyn.jpg"
-    },
-    {
-        "name": "Ted Cruz",
-        "party": "Republican",
-        "state": "Texas",
-        "seniority": "Junior",
-        "portrait_image": "ted_cruz.jpg"
-    },
-    {
-        "name": "Mike Lee",
-        "party": "Republican",
-        "state": "Utah",
-        "seniority": "Senior",
-        "portrait_image": "mike_lee.jpg"
-    },
-    {
-        "name": "John Curtis",
-        "party": "Republican",
-        "state": "Utah",
-        "seniority": "Junior",
-        "portrait_image": "john_curtis.jpg"
-    },
-    {
-        "name": "Bernie Sanders",
-        "party": "Independent",
-        "state": "Vermont",
-        "seniority": "Senior",
-        "portrait_image": "bernie_sanders.jpg"
-    },
-    {
-        "name": "Peter Welch",
-        "party": "Democrat",
-        "state": "Vermont",
-        "seniority": "Junior",
-        "portrait_image": "peter_welch.jpg"
-    },
-    {
-        "name": "Mark Warner",
-        "party": "Democrat",
-        "state": "Virginia",
-        "seniority": "Senior",
-        "portrait_image": "mark_warner.jpg"
-    },
-    {
-        "name": "Tim Kaine",
-        "party": "Democrat",
-        "state": "Virginia",
-        "seniority": "Junior",
-        "portrait_image": "tim_kaine.jpg"
-    },
-    {
-        "name": "Patty Murray",
-        "party": "Democrat",
-        "state": "Washington",
-        "seniority": "Senior",
-        "portrait_image": "patty_murray.jpg"
-    },
-    {
-        "name": "Maria Cantwell",
-        "party": "Democrat",
-        "state": "Washington",
-        "seniority": "Junior",
-        "portrait_image": "maria_cantwell.jpg"
-    },
-    {
-        "name": "Shelley Moore Capito",
-        "party": "Republican",
-        "state": "West Virginia",
-        "seniority": "Senior",
-        "portrait_image": "shelley_moore_capito.jpg"
-    },
-    {
-        "name": "Jim Justice",
-        "party": "Republican",
-        "state": "West Virginia",
-        "seniority": "Junior",
-        "portrait_image": "jim_justice.jpg"
-    },
-    {
-        "name": "Ron Johnson",
-        "party": "Republican",
-        "state": "Wisconsin",
-        "seniority": "Senior",
-        "portrait_image": "ron_johnson.jpg"
-    },
-    {
-        "name": "Tammy Baldwin",
-        "party": "Democrat",
-        "state": "Wisconsin",
-        "seniority": "Junior",
-        "portrait_image": "tammy_baldwin.jpg"
-    },
-    {
-        "name": "John Barrasso",
-        "party": "Republican",
-        "state": "Wyoming",
-        "seniority": "Senior",
-        "portrait_image": "john_barrasso.jpg"
-    },
-    {
-        "name": "Cynthia Lummis",
-        "party": "Republican",
-        "state": "Wyoming",
-        "seniority": "Junior",
-        "portrait_image": "cynthia_lummis.jpg"
-    }
+  { "name": "Tommy Tuberville",      "state": "Alabama",        "party": "R", "since": 2021, "funFact": "Former head football coach at Auburn, Texas Tech, Ole Miss, and UCLA.", "wiki": "Tommy_Tuberville" },
+  { "name": "Katie Britt",           "state": "Alabama",        "party": "R", "since": 2023, "funFact": "At 41, became the youngest woman ever elected to the U.S. Senate.", "wiki": "Katie_Britt" },
 
+  { "name": "Lisa Murkowski",        "state": "Alaska",         "party": "R", "since": 2002, "funFact": "Won re-election in 2010 as the first senator to win a write-in campaign since 1954.", "wiki": "Lisa_Murkowski" },
+  { "name": "Dan Sullivan",          "state": "Alaska",         "party": "R", "since": 2015, "funFact": "Served as a Marine Corps Reserve officer and as Alaska Attorney General.", "wiki": "Dan_Sullivan_(senator)" },
+
+  { "name": "Mark Kelly",            "state": "Arizona",        "party": "D", "since": 2020, "funFact": "Former NASA astronaut and U.S. Navy fighter pilot with over 375 combat hours.", "wiki": "Mark_Kelly" },
+  { "name": "Ruben Gallego",         "state": "Arizona",        "party": "D", "since": 2025, "funFact": "Marine Corps veteran who served in the Iraq War before entering politics.", "wiki": "Ruben_Gallego" },
+
+  { "name": "John Boozman",          "state": "Arkansas",       "party": "R", "since": 2011, "funFact": "Practiced optometry for over 20 years before entering politics.", "wiki": "John_Boozman" },
+  { "name": "Tom Cotton",            "state": "Arkansas",       "party": "R", "since": 2015, "funFact": "Harvard Law graduate and Army veteran who served in Iraq and Afghanistan.", "wiki": "Tom_Cotton" },
+
+  { "name": "Alex Padilla",          "state": "California",     "party": "D", "since": 2021, "funFact": "First Latino to represent California in the U.S. Senate.", "wiki": "Alex_Padilla" },
+  { "name": "Adam Schiff",           "state": "California",     "party": "D", "since": 2025, "funFact": "Former Assistant U.S. Attorney and lead House impeachment manager in 2019.", "wiki": "Adam_Schiff" },
+
+  { "name": "Michael Bennet",        "state": "Colorado",       "party": "D", "since": 2009, "funFact": "Was superintendent of Denver Public Schools before being appointed to the Senate.", "wiki": "Michael_Bennet" },
+  { "name": "John Hickenlooper",     "state": "Colorado",       "party": "D", "since": 2021, "funFact": "Opened Colorado's first brewpub in 1988 before becoming Denver's mayor and then governor.", "wiki": "John_Hickenlooper" },
+
+  { "name": "Richard Blumenthal",    "state": "Connecticut",    "party": "D", "since": 2011, "funFact": "Served as Connecticut Attorney General for 20 years before entering the Senate.", "wiki": "Richard_Blumenthal" },
+  { "name": "Chris Murphy",          "state": "Connecticut",    "party": "D", "since": 2013, "funFact": "Has been one of the Senate's most prominent voices for gun violence prevention legislation.", "wiki": "Chris_Murphy_(politician)" },
+
+  { "name": "Chris Coons",           "state": "Delaware",       "party": "D", "since": 2010, "funFact": "Wrote a college essay called 'The Bearded Marxist,' which he says was tongue-in-cheek.", "wiki": "Chris_Coons" },
+  { "name": "Lisa Blunt Rochester",  "state": "Delaware",       "party": "D", "since": 2025, "funFact": "Former Delaware Secretary of State and first Black woman to represent Delaware in Congress.", "wiki": "Lisa_Blunt_Rochester" },
+
+  { "name": "Rick Scott",            "state": "Florida",        "party": "R", "since": 2019, "funFact": "Former two-term Florida governor and founder of Columbia/HCA, once the nation's largest for-profit hospital company.", "wiki": "Rick_Scott" },
+  { "name": "Ashley Moody",          "state": "Florida",        "party": "R", "since": 2025, "funFact": "Former Florida Attorney General appointed to fill the seat vacated by Marco Rubio.", "wiki": "Ashley_Moody" },
+
+  { "name": "Jon Ossoff",            "state": "Georgia",        "party": "D", "since": 2021, "funFact": "At 34, was among the youngest U.S. senators when he took office in January 2021.", "wiki": "Jon_Ossoff" },
+  { "name": "Raphael Warnock",       "state": "Georgia",        "party": "D", "since": 2021, "funFact": "Senior pastor of Ebenezer Baptist Church in Atlanta, where Dr. Martin Luther King Jr. once preached.", "wiki": "Raphael_Warnock" },
+
+  { "name": "Mazie Hirono",          "state": "Hawaii",         "party": "D", "since": 2013, "funFact": "First U.S. senator born in Japan, first Buddhist senator, and first senator to give birth while in office.", "wiki": "Mazie_Hirono" },
+  { "name": "Brian Schatz",          "state": "Hawaii",         "party": "D", "since": 2012, "funFact": "Former CEO of Helping Hands Hawaii, a social services nonprofit, before entering politics.", "wiki": "Brian_Schatz" },
+
+  { "name": "Mike Crapo",            "state": "Idaho",          "party": "R", "since": 1999, "funFact": "A member of The Church of Jesus Christ of Latter-day Saints, he does not drink alcohol.", "wiki": "Mike_Crapo" },
+  { "name": "Jim Risch",             "state": "Idaho",          "party": "R", "since": 2009, "funFact": "Served as Idaho Governor for just 9 months in 2006 after the sitting governor resigned.", "wiki": "Jim_Risch" },
+
+  { "name": "Tammy Duckworth",       "state": "Illinois",       "party": "D", "since": 2017, "funFact": "Lost both legs serving as a Black Hawk helicopter pilot in Iraq in 2004.", "wiki": "Tammy_Duckworth" },
+  { "name": "Dick Durbin",           "state": "Illinois",       "party": "D", "since": 1997, "funFact": "Served as Senate Majority Whip, the second-ranking Senate Democrat, for many years.", "wiki": "Dick_Durbin" },
+
+  { "name": "Todd Young",            "state": "Indiana",        "party": "R", "since": 2017, "funFact": "Marine Corps veteran and former CIA analyst before becoming a congressman.", "wiki": "Todd_Young" },
+  { "name": "Jim Banks",             "state": "Indiana",        "party": "R", "since": 2025, "funFact": "Navy Reserve officer who served in Afghanistan, and former U.S. Representative.", "wiki": "Jim_Banks" },
+
+  { "name": "Chuck Grassley",        "state": "Iowa",           "party": "R", "since": 1981, "funFact": "One of the longest-serving senators in U.S. history. Famously tends his own corn and soybean farm.", "wiki": "Chuck_Grassley" },
+  { "name": "Joni Ernst",            "state": "Iowa",           "party": "R", "since": 2015, "funFact": "Former combat veteran and Iowa National Guard commander who ran memorable 'make 'em squeal' campaign ads.", "wiki": "Joni_Ernst" },
+
+  { "name": "Jerry Moran",           "state": "Kansas",         "party": "R", "since": 2011, "funFact": "Grew up on a farm in Plainville, Kansas, and has a long record of advocating for rural America.", "wiki": "Jerry_Moran" },
+  { "name": "Roger Marshall",        "state": "Kansas",         "party": "R", "since": 2021, "funFact": "OB/GYN physician who delivered over 5,000 babies before entering politics.", "wiki": "Roger_Marshall_(politician)" },
+
+  { "name": "Mitch McConnell",       "state": "Kentucky",       "party": "R", "since": 1985, "funFact": "Longest-serving Senate Republican leader in history.", "wiki": "Mitch_McConnell" },
+  { "name": "Rand Paul",             "state": "Kentucky",       "party": "R", "since": 2011, "funFact": "Board-certified ophthalmologist who founded his own certification board after a dispute with the official board.", "wiki": "Rand_Paul" },
+
+  { "name": "Bill Cassidy",          "state": "Louisiana",      "party": "R", "since": 2015, "funFact": "Gastroenterologist who helped establish a free health clinic for uninsured patients in Baton Rouge.", "wiki": "Bill_Cassidy" },
+  { "name": "John Kennedy",          "state": "Louisiana",      "party": "R", "since": 2017, "funFact": "Known for colorful one-liners on the Senate floor. Studied law at Oxford on a Rhodes Scholarship.", "wiki": "John_Kennedy_(Louisiana_politician)" },
+
+  { "name": "Susan Collins",         "state": "Maine",          "party": "R", "since": 1997, "funFact": "Known as a moderate Republican, she is the longest-serving senator in Maine history.", "wiki": "Susan_Collins" },
+  { "name": "Angus King",            "state": "Maine",          "party": "I", "since": 2013, "funFact": "One of two independent senators who caucuses with Democrats. Former two-term Maine governor.", "wiki": "Angus_King" },
+
+  { "name": "Chris Van Hollen",      "state": "Maryland",       "party": "D", "since": 2017, "funFact": "Born in Karachi, Pakistan, where his father was a U.S. diplomat.", "wiki": "Chris_Van_Hollen" },
+  { "name": "Angela Alsobrooks",     "state": "Maryland",       "party": "D", "since": 2025, "funFact": "Former Prince George's County Executive and the first Black woman elected to the Senate from Maryland.", "wiki": "Angela_Alsobrooks" },
+
+  { "name": "Elizabeth Warren",      "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Former Harvard Law professor who helped create the Consumer Financial Protection Bureau.", "wiki": "Elizabeth_Warren" },
+  { "name": "Ed Markey",             "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Co-author of the Green New Deal resolution. Served in the House for 37 years before the Senate.", "wiki": "Ed_Markey" },
+
+  { "name": "Gary Peters",           "state": "Michigan",       "party": "D", "since": 2015, "funFact": "Navy Reserve officer and former investment adviser who is a licensed skydiver.", "wiki": "Gary_Peters" },
+  { "name": "Elissa Slotkin",        "state": "Michigan",       "party": "D", "since": 2025, "funFact": "Former CIA analyst and Defense Department official who served three tours in Iraq.", "wiki": "Elissa_Slotkin" },
+
+  { "name": "Amy Klobuchar",         "state": "Minnesota",      "party": "D", "since": 2007, "funFact": "First woman elected to the Senate from Minnesota. Her father Al Klobuchar was a legendary sportswriter.", "wiki": "Amy_Klobuchar" },
+  { "name": "Tina Smith",            "state": "Minnesota",      "party": "D", "since": 2018, "funFact": "Former Planned Parenthood executive and Lt. Governor appointed to fill Al Franken's seat.", "wiki": "Tina_Smith" },
+
+  { "name": "Roger Wicker",          "state": "Mississippi",    "party": "R", "since": 2007, "funFact": "Avid musician who plays multiple instruments. Received a threatening letter via mail in 2013.", "wiki": "Roger_Wicker" },
+  { "name": "Cindy Hyde-Smith",      "state": "Mississippi",    "party": "R", "since": 2018, "funFact": "First woman to represent Mississippi in Congress, appointed then elected in a 2018 runoff.", "wiki": "Cindy_Hyde-Smith" },
+
+  { "name": "Josh Hawley",           "state": "Missouri",       "party": "R", "since": 2019, "funFact": "Yale Law graduate and former Missouri AG.", "wiki": "Josh_Hawley" },
+  { "name": "Eric Schmitt",          "state": "Missouri",       "party": "R", "since": 2023, "funFact": "Former Missouri Attorney General who filed over 40 lawsuits against the Biden administration.", "wiki": "Eric_Schmitt" },
+
+  { "name": "Steve Daines",          "state": "Montana",        "party": "R", "since": 2015, "funFact": "Worked for Procter & Gamble in China for several years before returning to Montana.", "wiki": "Steve_Daines" },
+  { "name": "Tim Sheehy",            "state": "Montana",        "party": "R", "since": 2025, "funFact": "Navy SEAL veteran and founder of Bridger Aerospace, a Montana aerial firefighting company.", "wiki": "Tim_Sheehy" },
+
+  { "name": "Deb Fischer",           "state": "Nebraska",       "party": "R", "since": 2013, "funFact": "Raises cattle on her family's ranch near Valentine, Nebraska.", "wiki": "Deb_Fischer" },
+  { "name": "Pete Ricketts",         "state": "Nebraska",       "party": "R", "since": 2023, "funFact": "Part-owner of the Chicago Cubs. Former two-term Nebraska governor appointed to the Senate.", "wiki": "Pete_Ricketts" },
+
+  { "name": "Catherine Cortez Masto","state": "Nevada",         "party": "D", "since": 2017, "funFact": "First Latina U.S. senator in history. Served as Nevada's Attorney General for eight years.", "wiki": "Catherine_Cortez_Masto" },
+  { "name": "Jacky Rosen",           "state": "Nevada",         "party": "D", "since": 2019, "funFact": "Former computer programmer and synagogue president who had never held public office before her House win.", "wiki": "Jacky_Rosen" },
+
+  { "name": "Jeanne Shaheen",        "state": "New Hampshire",  "party": "D", "since": 2009, "funFact": "First person in U.S. history to be elected both governor and U.S. senator in the same state.", "wiki": "Jeanne_Shaheen" },
+  { "name": "Maggie Hassan",         "state": "New Hampshire",  "party": "D", "since": 2017, "funFact": "Former two-term New Hampshire governor. Her advocacy for disability rights was shaped by her son's cerebral palsy.", "wiki": "Maggie_Hassan" },
+
+  { "name": "Cory Booker",           "state": "New Jersey",     "party": "D", "since": 2013, "funFact": "Vegan who famously moved into a Newark housing project as mayor to better understand residents' lives.", "wiki": "Cory_Booker" },
+  { "name": "Andy Kim",              "state": "New Jersey",     "party": "D", "since": 2025, "funFact": "Former National Security Council director and the first Korean American senator.", "wiki": "Andy_Kim" },
+
+  { "name": "Martin Heinrich",       "state": "New Mexico",     "party": "D", "since": 2013, "funFact": "Mechanical engineer by training and avid hunter, he brings a rural perspective to Democratic environmental debates.", "wiki": "Martin_Heinrich" },
+  { "name": "Ben Ray Luján",         "state": "New Mexico",     "party": "D", "since": 2021, "funFact": "First Native American senator from New Mexico, with Tewa Pueblo heritage.", "wiki": "Ben_Ray_Luján" },
+
+  { "name": "Chuck Schumer",         "state": "New York",       "party": "D", "since": 1999, "funFact": "Senate Majority Leader known for holding weekly Sunday press conferences to drive the week's news cycle.", "wiki": "Chuck_Schumer" },
+  { "name": "Kirsten Gillibrand",    "state": "New York",       "party": "D", "since": 2009, "funFact": "Appointed to Hillary Clinton's seat in 2009. Has carried a handgun in her pickup truck.", "wiki": "Kirsten_Gillibrand" },
+
+  { "name": "Thom Tillis",           "state": "North Carolina", "party": "R", "since": 2015, "funFact": "Started his career at IBM and worked his way up to executive director of PricewaterhouseCoopers.", "wiki": "Thom_Tillis" },
+  { "name": "Ted Budd",              "state": "North Carolina", "party": "R", "since": 2023, "funFact": "Owner of a gun shop and shooting range in Advance, NC called ProShots Products.", "wiki": "Ted_Budd" },
+
+  { "name": "John Hoeven",           "state": "North Dakota",   "party": "R", "since": 2011, "funFact": "Former five-term North Dakota governor who oversaw a major oil boom in the Bakken formation.", "wiki": "John_Hoeven" },
+  { "name": "Kevin Cramer",          "state": "North Dakota",   "party": "R", "since": 2019, "funFact": "Former North Dakota Public Service Commissioner and an ordained minister.", "wiki": "Kevin_Cramer" },
+
+  { "name": "Bernie Moreno",         "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Colombian-born businessman and car dealership owner endorsed by Donald Trump over the incumbent.", "wiki": "Bernie_Moreno" },
+  { "name": "Jon Husted",            "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Former Ohio Lt. Governor and Secretary of State, appointed to fill JD Vance's vacated seat.", "wiki": "Jon_Husted" },
+
+  { "name": "Markwayne Mullin",      "state": "Oklahoma",       "party": "R", "since": 2023, "funFact": "Former MMA fighter who made headlines for challenging a union leader to a fight on the Senate floor.", "wiki": "Markwayne_Mullin" },
+  { "name": "James Lankford",        "state": "Oklahoma",       "party": "R", "since": 2015, "funFact": "Former Baptist youth camp director who negotiated a bipartisan border security deal in early 2024.", "wiki": "James_Lankford" },
+
+  { "name": "Ron Wyden",             "state": "Oregon",         "party": "D", "since": 1996, "funFact": "Co-founder of the Oregon Legal Services Center and a leading advocate for internet privacy rights.", "wiki": "Ron_Wyden" },
+  { "name": "Jeff Merkley",          "state": "Oregon",         "party": "D", "since": 2009, "funFact": "Only senator to have endorsed Bernie Sanders in 2016. Sleeps on a cot in his Senate office.", "wiki": "Jeff_Merkley" },
+
+  { "name": "John Fetterman",        "state": "Pennsylvania",   "party": "D", "since": 2023, "funFact": "Known for wearing Carhartt shorts and hoodies in the Senate chamber, prompting a dress code debate.", "wiki": "John_Fetterman" },
+  { "name": "Dave McCormick",        "state": "Pennsylvania",   "party": "R", "since": 2025, "funFact": "Former hedge fund CEO who served in the U.S. Army as a paratrooper with the 82nd Airborne Division.", "wiki": "Dave_McCormick" },
+
+  { "name": "Jack Reed",             "state": "Rhode Island",   "party": "D", "since": 1997, "funFact": "West Point graduate and former Army Ranger who is the longest-serving senator in Rhode Island history.", "wiki": "Jack_Reed_(politician)" },
+  { "name": "Sheldon Whitehouse",    "state": "Rhode Island",   "party": "D", "since": 2007, "funFact": "Former Rhode Island AG who has given over 290 Senate floor speeches on climate change.", "wiki": "Sheldon_Whitehouse" },
+
+  { "name": "Lindsey Graham",        "state": "South Carolina", "party": "R", "since": 2003, "funFact": "First Air Force JAG officer elected to the Senate. Was a main prosecutor in President Clinton's impeachment trial.", "wiki": "Lindsey_Graham" },
+  { "name": "Tim Scott",             "state": "South Carolina", "party": "R", "since": 2013, "funFact": "First Black Republican senator from the South since Reconstruction. Briefly ran for president in 2024.", "wiki": "Tim_Scott" },
+
+  { "name": "John Thune",            "state": "South Dakota",   "party": "R", "since": 2005, "funFact": "Former college basketball player who unseated Senate Majority Leader Tom Daschle in 2004. Became Senate Majority Leader in 2025.", "wiki": "John_Thune" },
+  { "name": "Mike Rounds",           "state": "South Dakota",   "party": "R", "since": 2015, "funFact": "Former four-term South Dakota governor who worked as an insurance agent before entering politics.", "wiki": "Mike_Rounds" },
+
+  { "name": "Marsha Blackburn",      "state": "Tennessee",      "party": "R", "since": 2019, "funFact": "Former saleswoman who ran a clothing wholesale business before entering the Tennessee legislature.", "wiki": "Marsha_Blackburn" },
+  { "name": "Bill Hagerty",          "state": "Tennessee",      "party": "R", "since": 2021, "funFact": "Former U.S. Ambassador to Japan under President Trump. Speaks Japanese.", "wiki": "Bill_Hagerty" },
+
+  { "name": "John Cornyn",           "state": "Texas",          "party": "R", "since": 2002, "funFact": "Former Texas Attorney General and Texas Supreme Court Justice before entering the Senate.", "wiki": "John_Cornyn" },
+  { "name": "Ted Cruz",              "state": "Texas",          "party": "R", "since": 2013, "funFact": "Former Solicitor General of Texas who argued nine cases before the U.S. Supreme Court.", "wiki": "Ted_Cruz" },
+
+  { "name": "Mike Lee",              "state": "Utah",           "party": "R", "since": 2011, "funFact": "Son of former U.S. Solicitor General Rex Lee. Was a law clerk for Supreme Court Justice Samuel Alito.", "wiki": "Mike_Lee_(U.S._politician)" },
+  { "name": "John Curtis",           "state": "Utah",           "party": "R", "since": 2025, "funFact": "Former mayor of Provo and avid cyclist known as one of the more moderate GOP voices on climate.", "wiki": "John_Curtis_(politician)" },
+
+  { "name": "Bernie Sanders",        "state": "Vermont",        "party": "I", "since": 2007, "funFact": "Longest-serving independent in congressional history. Twice ran for the Democratic presidential nomination.", "wiki": "Bernie_Sanders" },
+  { "name": "Peter Welch",           "state": "Vermont",        "party": "D", "since": 2023, "funFact": "First Democrat ever elected to Vermont's at-large House seat, serving 16 years there before the Senate.", "wiki": "Peter_Welch" },
+
+  { "name": "Mark Warner",           "state": "Virginia",       "party": "D", "since": 2009, "funFact": "Made his fortune as an early investor and promoter of cell phone networks. Former Virginia governor.", "wiki": "Mark_Warner" },
+  { "name": "Tim Kaine",             "state": "Virginia",       "party": "D", "since": 2013, "funFact": "Former mayor of Richmond, Virginia governor, and Hillary Clinton's 2016 running mate. Speaks Spanish fluently.", "wiki": "Tim_Kaine" },
+
+  { "name": "Patty Murray",          "state": "Washington",     "party": "D", "since": 1993, "funFact": "Described herself as 'just a mom in tennis shoes' when she first ran in 1992. Third-longest serving Senate Democrat.", "wiki": "Patty_Murray" },
+  { "name": "Maria Cantwell",        "state": "Washington",     "party": "D", "since": 2001, "funFact": "Former tech executive who worked at RealNetworks and was an early investor in internet companies.", "wiki": "Maria_Cantwell" },
+
+  { "name": "Shelley Moore Capito",  "state": "West Virginia",  "party": "R", "since": 2015, "funFact": "Daughter of former West Virginia governor Arch Moore. First woman elected to Senate from West Virginia.", "wiki": "Shelley_Moore_Capito" },
+  { "name": "Jim Justice",           "state": "West Virginia",  "party": "R", "since": 2025, "funFact": "Billionaire businessman and owner of The Greenbrier resort. One of the tallest governors in U.S. history at 6'7\".", "wiki": "Jim_Justice" },
+
+  { "name": "Ron Johnson",           "state": "Wisconsin",      "party": "R", "since": 2011, "funFact": "Plastics manufacturer who pledged to serve only two terms but ran and won a third in 2022.", "wiki": "Ron_Johnson_(Wisconsin_politician)" },
+  { "name": "Tammy Baldwin",         "state": "Wisconsin",      "party": "D", "since": 2013, "funFact": "First openly gay person elected to the U.S. Senate. Former U.S. Representative for 14 years.", "wiki": "Tammy_Baldwin" },
+
+  { "name": "John Barrasso",         "state": "Wyoming",        "party": "R", "since": 2007, "funFact": "Orthopedic surgeon who was team physician for the Wyoming Cowboys and Cowgirls athletics.", "wiki": "John_Barrasso" },
+  { "name": "Cynthia Lummis",        "state": "Wyoming",        "party": "R", "since": 2021, "funFact": "Rancher and one of the first members of Congress to hold Bitcoin and advocate for crypto legislation.", "wiki": "Cynthia_Lummis" }
 ]

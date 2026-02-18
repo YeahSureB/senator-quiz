@@ -2,37 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>U.S. Senator Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Politics Geography Quiz</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="app">
-        <!-- Screens will be dynamically swapped in via JS -->
-        <div id="screen-start" class="screen active">
-            <h1>U.S. Senator Quiz</h1>
-            <p>Select difficulty to begin:</p>
-            <button data-mode="Easy" class="mode-btn">Easy</button>
-            <button data-mode="Hard" class="mode-btn">Hard</button>
+    <div class="container">
+        <!-- Game Interface (visible from start, map loads here) -->
+        <div id="game-interface" class="game-interface">
+            <div class="info-panel">
+                <div class="target-city">
+                    Find: <span id="target-person-name">---</span>
+                </div>
+                <div class="game-stats">
+                    <div class="stat">
+                        <span class="label">Streak:</span>
+                        <span id="streak-number">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Best:</span>
+                        <span id="high-score">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Mode:</span>
+                        <span id="game-mode">---</span>
+                    </div>
+                    <button id="change-mode-btn" class="change-mode-btn">Change Mode</button>
+                </div>
+            </div>
+
+            <div id="map"></div>
+
+            <div class="result-panel hidden" id="result-panel">
+                <div id="result-message" class="result-message"></div>
+                <div id="result-distance" class="result-distance"></div>
+
+                <hr>
+
+                <div class="sidebar-info">
+                    <div><strong id="result-label">Senator:</strong> <span id="result-name"></span></div>
+                    <div id="state-container"><strong>State:</strong> <span id="result-state"></span></div>
+                    <div id="party-container"><strong>Party:</strong> <span id="result-party"></span></div>
+                    <div id="since-container"><strong>In Office Since:</strong> <span id="result-since"></span></div>
+
+                    <!-- Person Image Container -->
+                    <div id="person-image-container" style="margin: 12px 0; display: none;">
+                        <img id="person-image" src="" alt=""
+                            style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                    </div>
+
+                    <div id="result-fact" class="fun-fact" style="margin-top: 8px; font-style: italic;"></div>
+
+                    <div style="margin-top: 8px;">
+                        <a id="result-wiki-link" href="#" target="_blank"
+                            style="color: #1a73e8; text-decoration: none;">
+                            📖 Learn more on Wikipedia →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="result-actions">
+                    <button id="btn-next" class="next-btn">Next Target</button>
+                </div>
+            </div>
         </div>
 
-        <div id="screen-quiz" class="screen hidden">
-            <div id="progress"></div>
-            <div id="question-area"></div>
-            <input id="answer-input" type="text" placeholder="Type your answer..." autocomplete="off" />
-            <button id="submit-answer">Submit</button>
-        </div>
-
-        <div id="screen-results" class="screen hidden">
-            <h2>Results</h2>
-            <div id="results-summary"></div>
-            <button id="restart">Play Again</button>
+        <!-- Game Mode Selection (overlays the map) -->
+        <div id="mode-selection" class="mode-selection">
+            <h1>US Politics Geography Quiz</h1>
+            <p>Test your knowledge of American politics!</p>
+            <div class="mode-buttons">
+                <button id="senators-btn" class="mode-btn">US Senators</button>
+                <button id="governors-btn" class="mode-btn">Governors</button>
+            </div>
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Game Script -->
+    <script src="script.js"></script>
 </body>
 
 </html>
