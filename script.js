@@ -75,6 +75,13 @@ const gameModeEl = document.getElementById('game-mode');
 const MAP_CENTER = [39.5, -98.35];
 const MAP_ZOOM = 4;
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+}
+
 // Initialize the game
 async function init() {
     // Load all data before initializing the map
@@ -241,7 +248,7 @@ function startGame(mode) {
     const dataSourceName = config.dataSource;
     const sourceData = window[dataSourceName] || eval(dataSourceName);
     filteredTargets = [...sourceData];
-
+    shuffleArray(filteredTargets);
     gameModeEl.textContent = config.label;
 
     console.log(`Starting ${mode} mode with ${filteredTargets.length} targets`);
@@ -256,7 +263,14 @@ function startRound() {
     clearMarkers();
     resultPanel.classList.add('hidden');
 
-    currentTarget = filteredTargets[Math.floor(Math.random() * filteredTargets.length)];
+    if (filteredTargets.length === 0) {
+        const config = MODE_CONFIG[currentMode];
+        const dataSourceName = config.dataSource;
+        const sourceData = window[dataSourceName] || eval(dataSourceName);
+        filteredTargets = [...sourceData];
+        shuffleArray(filteredTargets);
+    }
+    currentTarget = filteredTargets.shift();
 
     // Show name + party abbreviation in the HUD
     const partyLabel = `(${currentTarget.party})`;
