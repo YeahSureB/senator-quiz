@@ -207,6 +207,67 @@ body {
     line-height: 1.5;
 }
 
+/* Subtle marker for officials not serving the next term */
+.sidebar-info span.leaving-mark {
+    color: #a0aec0;
+    font-weight: 400;
+    margin-left: 1px;
+}
+
+.sidebar-info .leaving-note {
+    font-size: 0.75rem;
+    color: #a0aec0;
+    margin-top: 2px;
+}
+
+.sidebar-info .leaving-note.hidden {
+    display: none;
+}
+
+/* Small dismissible heads-up when the data predates the last election */
+.stale-notice {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: calc(100vw - 32px);
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgba(26, 32, 44, 0.95);
+    color: #e2e8f0;
+    border: 1px solid rgba(246, 201, 14, 0.5);
+    border-radius: 10px;
+    padding: 10px 12px 10px 14px;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+    z-index: 2500;
+}
+
+.stale-notice span {
+    max-width: 460px;
+}
+
+.stale-notice.hidden {
+    display: none;
+}
+
+.stale-notice-close {
+    background: none;
+    border: none;
+    color: #a0aec0;
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 2px;
+}
+
+.stale-notice-close:hover {
+    color: #fff;
+}
+
 .result-actions {
     display: flex;
     gap: 8px;
