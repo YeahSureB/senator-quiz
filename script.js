@@ -147,6 +147,7 @@ const highScoreEl = document.getElementById('high-score');
 const masteryPercentEl = document.getElementById('mastery-percent');
 const masteryProgressFill = document.getElementById('mastery-progress-fill');
 const resultConfidence = document.getElementById('result-confidence');
+const leavingNote = document.getElementById('leaving-note');
 
 // --- Added: Timer & Leaderboard DOM Elements ---
 const timerDisplay = document.getElementById('timer-display');
@@ -177,6 +178,9 @@ async function init() {
     // Load saved preferences from localStorage
     loadPreferences();
 
+    // Warn visitors if the data predates the most recent election
+    checkDataFreshness();
+
     // Set up event listeners
     document.getElementById('senators-btn').addEventListener('click', () => startGame('senators'));
     document.getElementById('governors-btn').addEventListener('click', () => startGame('governors'));
@@ -205,14 +209,94 @@ function loadPreferences() {
     }
 }
 
+// ---------------------------------------------------------------------------
+// Term transitions — decides who is "currently serving" on the day it's played.
+//
+// Each JSON file looks like:
+//   {
+//     "lastUpdated": "2026-11-22",
+//     "termStart":  "2027-01-03",                  // switch-over date for every state
+//     "termStarts": { "Alaska": "2026-12-07", ... }, // optional per-state dates (override termStart)
+//     "officials":  [ ... ]
+//   }
+//
+// Per-official flags (all optional):
+//   "incoming": true      Hidden until their state's switch-over date.
+//   "termStart": "..."    Gives one incoming official their own start date (rare, e.g. a
+//                         special-election winner sworn in early).
+//   "leaving": true       Still serving, but not serving the next term. Shown with a subtle
+//                         asterisk. Disappears automatically once an incoming official from
+//                         the same state takes office.
+//   "leavesOn": "..."     Gives one leaving official a specific date they disappear on, even
+//                         if no replacement is listed (e.g. resigning to take another office).
+//
+// All dates are "YYYY-MM-DD" and are compared against the visitor's local date.
+// ---------------------------------------------------------------------------
+
+// Today's local date as "YYYY-MM-DD" (string comparison works for this format)
+function todayISO() {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+// Accepts the file format above, or a bare array (the old format) for backwards compatibility
+function normalizeDataFile(raw) {
+    if (Array.isArray(raw)) return { lastUpdated: null, termStart: null, termStarts: {}, officials: raw };
+    return {
+        lastUpdated: raw.lastUpdated || null,
+        termStart: raw.termStart || null,
+        termStarts: raw.termStarts || {},
+        officials: Array.isArray(raw.officials) ? raw.officials : []
+    };
+}
+
+// Keep only the officials serving on `today`
+function filterCurrentOfficials(file, today, label) {
+    const startDateFor = (official) =>
+        official.termStart || file.termStarts[official.state] || file.termStart || null;
+
+    // States where at least one incoming official has already taken office
+    const statesWithNewcomers = new Set(
+        file.officials
+            .filter(o => o.incoming && startDateFor(o) && today >= startDateFor(o))
+            .map(o => o.state)
+    );
+
+    return file.officials.filter(official => {
+        if (official.incoming) {
+            const start = startDateFor(official);
+            if (!start) {
+                console.warn(`${label}: "${official.name}" is marked incoming but has no start date, so they stay hidden. Add a termStart/termStarts date.`);
+                return false;
+            }
+            return today >= start;
+        }
+        if (official.leaving) {
+            if (official.leavesOn) return today < official.leavesOn;
+            return !statesWithNewcomers.has(official.state);
+        }
+        return true;
+    });
+}
+
+// lastUpdated values, kept for the stale-data check
+const dataLastUpdated = {};
+
+// Shared loader for both JSON files
+async function loadOfficials(fileName, label) {
+    const response = await fetch(fileName);
+    const file = normalizeDataFile(await response.json());
+    dataLastUpdated[label] = file.lastUpdated;
+    const current = filterCurrentOfficials(file, todayISO(), label);
+    console.log(`Loaded ${current.length} current ${label} from ${fileName} (${file.officials.length} entries in file, last updated ${file.lastUpdated || 'unknown'})`);
+    return current;
+}
+
 // Load senator JSON data
 async function loadSenatorData() {
     try {
-        const response = await fetch('senators.json');
-        const rawData = await response.json();
         // Geometry and lat/lng will be joined in after loadStatesData()
-        senatorData = rawData;
-        console.log(`Loaded ${senatorData.length} senators from senators.json`);
+        senatorData = await loadOfficials('senators.json', 'senators');
     } catch (error) {
         console.error('Error loading senator data:', error);
         alert('Error loading senator data. Please ensure senators.json is in the same directory.');
@@ -222,14 +306,61 @@ async function loadSenatorData() {
 // Load governor JSON data
 async function loadGovernorData() {
     try {
-        const response = await fetch('governors.json');
-        const rawData = await response.json();
-        governorData = rawData;
-        console.log(`Loaded ${governorData.length} governors from governors.json`);
+        governorData = await loadOfficials('governors.json', 'governors');
     } catch (error) {
         console.error('Error loading governor data:', error);
         alert('Error loading governor data. Please ensure governors.json is in the same directory.');
     }
+}
+
+// ---------------------------------------------------------------------------
+// Stale-data notice — if the data hasn't been updated since the most recent
+// November general election (plus a grace period to enter results), show a
+// small dismissible heads-up on page load.
+// ---------------------------------------------------------------------------
+const STALE_GRACE_DAYS = 28;
+
+// General Election Day: the Tuesday after the first Monday in November (fixed by federal law)
+function electionDay(year) {
+    const nov1 = new Date(year, 10, 1);
+    const firstMonday = 1 + ((8 - nov1.getDay()) % 7);
+    return new Date(year, 10, firstMonday + 1);
+}
+
+function parseISODate(iso) {
+    const [y, m, d] = iso.split('-').map(Number);
+    return new Date(y, m - 1, d);
+}
+
+function formatDate(date) {
+    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function checkDataFreshness() {
+    if (sessionStorage.getItem('staleNoticeDismissed')) return;
+
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    // Most recent election whose grace period has already passed
+    let election = electionDay(today.getFullYear());
+    const graceEnd = new Date(election);
+    graceEnd.setDate(graceEnd.getDate() + STALE_GRACE_DAYS);
+    if (today < graceEnd) election = electionDay(today.getFullYear() - 1);
+
+    // Oldest lastUpdated across the data files decides
+    const dates = Object.values(dataLastUpdated).filter(Boolean).map(parseISODate);
+    if (dates.length === 0) return;
+    const oldest = new Date(Math.min(...dates));
+    if (oldest >= election) return;
+
+    const notice = document.getElementById('stale-notice');
+    document.getElementById('stale-notice-text').textContent =
+        `Heads up: this game's data was last updated ${formatDate(oldest)}, before the most recent election (${formatDate(election)}). Some officials may be out of date.`;
+    notice.classList.remove('hidden');
+    document.getElementById('stale-notice-close').addEventListener('click', () => {
+        notice.classList.add('hidden');
+        sessionStorage.setItem('staleNoticeDismissed', '1');
+    });
 }
 
 // Load US state boundary GeoJSON — equivalent to loadCountyData() in the original.
@@ -604,6 +735,14 @@ function displayResult(distance, userLatLng) {
     }
 
     resultName.textContent = currentTarget.name;
+    // Subtle asterisk + footnote for officials flagged as not serving the next term
+    if (currentTarget.leaving) {
+        const mark = document.createElement('span');
+        mark.className = 'leaving-mark';
+        mark.textContent = '*';
+        resultName.appendChild(mark);
+    }
+    leavingNote.classList.toggle('hidden', !currentTarget.leaving);
     resultState.textContent = currentTarget.state;
 
     const partyFull = currentTarget.party === 'D' ? 'Democrat' :

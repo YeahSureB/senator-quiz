@@ -1,151 +1,174 @@
-[
-  { "name": "Tommy Tuberville",      "state": "Alabama",        "party": "R", "since": 2021, "funFact": "Former head football coach at Auburn, Texas Tech, Ole Miss, and UCLA.", "wiki": "Tommy_Tuberville" },
-  { "name": "Katie Britt",           "state": "Alabama",        "party": "R", "since": 2023, "funFact": "At 41, became the youngest woman ever elected to the U.S. Senate.", "wiki": "Katie_Britt" },
+{
+  "lastUpdated": "2026-11-22",
+  "termStart": "2027-01-03",
+  "officials": [
+    { "name": "Tommy Tuberville",      "state": "Alabama",        "party": "R", "since": 2021, "funFact": "Former head football coach at Auburn, Texas Tech, Ole Miss, and Cincinnati.", "wiki": "Tommy_Tuberville", "leaving": true },
+    { "name": "Katie Britt",           "state": "Alabama",        "party": "R", "since": 2023, "funFact": "At 41, became the youngest woman ever elected to the U.S. Senate.", "wiki": "Katie_Britt" },
+    { "name": "Barry Moore",           "state": "Alabama",        "party": "R", "since": 2027, "funFact": "Spent eight years in the Alabama House, then won a rare incumbent-vs-incumbent GOP House primary after 2024 redistricting.", "wiki": "Barry_Moore_(American_politician)", "incoming": true },
 
-  { "name": "Lisa Murkowski",        "state": "Alaska",         "party": "R", "since": 2002, "funFact": "Won re-election in 2010 as the first senator to win a write-in campaign since 1954.", "wiki": "Lisa_Murkowski" },
-  { "name": "Dan Sullivan",          "state": "Alaska",         "party": "R", "since": 2015, "funFact": "Served as a Marine Corps Reserve officer and as Alaska Attorney General.", "wiki": "Dan_Sullivan_(senator)" },
+    { "name": "Lisa Murkowski",        "state": "Alaska",         "party": "R", "since": 2002, "funFact": "Won re-election in 2010 as the first senator to win a write-in campaign since 1954.", "wiki": "Lisa_Murkowski" },
+    { "name": "Dan Sullivan",          "state": "Alaska",         "party": "R", "since": 2015, "funFact": "Served as a Marine Corps Reserve officer and as Alaska Attorney General.", "wiki": "Dan_Sullivan_(senator)", "leaving": true },
+    { "name": "Mary Peltola",          "state": "Alaska",         "party": "D", "since": 2027, "funFact": "First Alaska Native elected to the U.S. Senate. In 2022 she became the first Alaska Native in Congress by beating Sarah Palin.", "wiki": "Mary_Peltola", "incoming": true },
 
-  { "name": "Mark Kelly",            "state": "Arizona",        "party": "D", "since": 2020, "funFact": "Former NASA astronaut and U.S. Navy fighter pilot with over 375 combat hours.", "wiki": "Mark_Kelly" },
-  { "name": "Ruben Gallego",         "state": "Arizona",        "party": "D", "since": 2025, "funFact": "Marine Corps veteran who served in the Iraq War before entering politics.", "wiki": "Ruben_Gallego" },
+    { "name": "Mark Kelly",            "state": "Arizona",        "party": "D", "since": 2020, "funFact": "Former NASA astronaut and U.S. Navy fighter pilot with over 375 combat hours.", "wiki": "Mark_Kelly" },
+    { "name": "Ruben Gallego",         "state": "Arizona",        "party": "D", "since": 2025, "funFact": "Marine Corps veteran who served in the Iraq War before entering politics.", "wiki": "Ruben_Gallego" },
 
-  { "name": "John Boozman",          "state": "Arkansas",       "party": "R", "since": 2011, "funFact": "Practiced optometry for over 20 years before entering politics.", "wiki": "John_Boozman" },
-  { "name": "Tom Cotton",            "state": "Arkansas",       "party": "R", "since": 2015, "funFact": "Harvard Law graduate and Army veteran who served in Iraq and Afghanistan.", "wiki": "Tom_Cotton" },
+    { "name": "John Boozman",          "state": "Arkansas",       "party": "R", "since": 2011, "funFact": "Practiced optometry for over 20 years before entering politics.", "wiki": "John_Boozman" },
+    { "name": "Tom Cotton",            "state": "Arkansas",       "party": "R", "since": 2015, "funFact": "Harvard Law graduate and Army veteran who served in Iraq and Afghanistan.", "wiki": "Tom_Cotton" },
 
-  { "name": "Alex Padilla",          "state": "California",     "party": "D", "since": 2021, "funFact": "First Latino to represent California in the U.S. Senate.", "wiki": "Alex_Padilla" },
-  { "name": "Adam Schiff",           "state": "California",     "party": "D", "since": 2025, "funFact": "Former Assistant U.S. Attorney and lead House impeachment manager in 2019.", "wiki": "Adam_Schiff" },
+    { "name": "Alex Padilla",          "state": "California",     "party": "D", "since": 2021, "funFact": "First Latino to represent California in the U.S. Senate.", "wiki": "Alex_Padilla" },
+    { "name": "Adam Schiff",           "state": "California",     "party": "D", "since": 2025, "funFact": "Former Assistant U.S. Attorney and lead House impeachment manager in 2019.", "wiki": "Adam_Schiff" },
 
-  { "name": "Michael Bennet",        "state": "Colorado",       "party": "D", "since": 2009, "funFact": "Was superintendent of Denver Public Schools before being appointed to the Senate.", "wiki": "Michael_Bennet" },
-  { "name": "John Hickenlooper",     "state": "Colorado",       "party": "D", "since": 2021, "funFact": "Opened Colorado's first brewpub in 1988 before becoming Denver's mayor and then governor.", "wiki": "John_Hickenlooper" },
+    { "name": "Michael Bennet",        "state": "Colorado",       "party": "D", "since": 2009, "funFact": "Was superintendent of Denver Public Schools before being appointed to the Senate.", "wiki": "Michael_Bennet" },
+    { "name": "John Hickenlooper",     "state": "Colorado",       "party": "D", "since": 2021, "funFact": "Opened Colorado's first brewpub in 1988 before becoming Denver's mayor and then governor.", "wiki": "John_Hickenlooper" },
 
-  { "name": "Richard Blumenthal",    "state": "Connecticut",    "party": "D", "since": 2011, "funFact": "Served as Connecticut Attorney General for 20 years before entering the Senate.", "wiki": "Richard_Blumenthal" },
-  { "name": "Chris Murphy",          "state": "Connecticut",    "party": "D", "since": 2013, "funFact": "Has been one of the Senate's most prominent voices for gun violence prevention legislation.", "wiki": "Chris_Murphy_(politician)" },
+    { "name": "Richard Blumenthal",    "state": "Connecticut",    "party": "D", "since": 2011, "funFact": "Served as Connecticut Attorney General for 20 years before entering the Senate.", "wiki": "Richard_Blumenthal" },
+    { "name": "Chris Murphy",          "state": "Connecticut",    "party": "D", "since": 2013, "funFact": "Has been one of the Senate's most prominent voices for gun violence prevention legislation.", "wiki": "Chris_Murphy_(politician)" },
 
-  { "name": "Chris Coons",           "state": "Delaware",       "party": "D", "since": 2010, "funFact": "Wrote a college essay called 'The Bearded Marxist,' which he says was tongue-in-cheek.", "wiki": "Chris_Coons" },
-  { "name": "Lisa Blunt Rochester",  "state": "Delaware",       "party": "D", "since": 2025, "funFact": "Former Delaware Secretary of State and first Black woman to represent Delaware in Congress.", "wiki": "Lisa_Blunt_Rochester" },
+    { "name": "Chris Coons",           "state": "Delaware",       "party": "D", "since": 2010, "funFact": "Wrote a college essay called 'The Bearded Marxist,' which he says was tongue-in-cheek.", "wiki": "Chris_Coons" },
+    { "name": "Lisa Blunt Rochester",  "state": "Delaware",       "party": "D", "since": 2025, "funFact": "Former Delaware Secretary of State and first Black woman to represent Delaware in Congress.", "wiki": "Lisa_Blunt_Rochester" },
 
-  { "name": "Rick Scott",            "state": "Florida",        "party": "R", "since": 2019, "funFact": "Former two-term Florida governor and founder of Columbia/HCA, once the nation's largest for-profit hospital company.", "wiki": "Rick_Scott" },
-  { "name": "Ashley Moody",          "state": "Florida",        "party": "R", "since": 2025, "funFact": "Former Florida Attorney General appointed to fill the seat vacated by Marco Rubio.", "wiki": "Ashley_Moody" },
+    { "name": "Rick Scott",            "state": "Florida",        "party": "R", "since": 2019, "funFact": "Former two-term Florida governor and founder of Columbia/HCA, once the nation's largest for-profit hospital company.", "wiki": "Rick_Scott" },
+    { "name": "Ashley Moody",          "state": "Florida",        "party": "R", "since": 2025, "funFact": "Former Florida Attorney General appointed to fill the seat vacated by Marco Rubio.", "wiki": "Ashley_Moody" },
 
-  { "name": "Jon Ossoff",            "state": "Georgia",        "party": "D", "since": 2021, "funFact": "At 34, was among the youngest U.S. senators when he took office in January 2021.", "wiki": "Jon_Ossoff" },
-  { "name": "Raphael Warnock",       "state": "Georgia",        "party": "D", "since": 2021, "funFact": "Senior pastor of Ebenezer Baptist Church in Atlanta, where Dr. Martin Luther King Jr. once preached.", "wiki": "Raphael_Warnock" },
+    { "name": "Jon Ossoff",            "state": "Georgia",        "party": "D", "since": 2021, "funFact": "At 34, was among the youngest U.S. senators when he took office in January 2021.", "wiki": "Jon_Ossoff" },
+    { "name": "Raphael Warnock",       "state": "Georgia",        "party": "D", "since": 2021, "funFact": "Senior pastor of Ebenezer Baptist Church in Atlanta, where Dr. Martin Luther King Jr. once preached.", "wiki": "Raphael_Warnock" },
 
-  { "name": "Mazie Hirono",          "state": "Hawaii",         "party": "D", "since": 2013, "funFact": "First U.S. senator born in Japan, first Buddhist senator, and first senator to give birth while in office.", "wiki": "Mazie_Hirono" },
-  { "name": "Brian Schatz",          "state": "Hawaii",         "party": "D", "since": 2012, "funFact": "Former CEO of Helping Hands Hawaii, a social services nonprofit, before entering politics.", "wiki": "Brian_Schatz" },
+    { "name": "Mazie Hirono",          "state": "Hawaii",         "party": "D", "since": 2013, "funFact": "First U.S. senator born in Japan, first Buddhist senator, and first senator to give birth while in office.", "wiki": "Mazie_Hirono" },
+    { "name": "Brian Schatz",          "state": "Hawaii",         "party": "D", "since": 2012, "funFact": "Former CEO of Helping Hands Hawaii, a social services nonprofit, before entering politics.", "wiki": "Brian_Schatz" },
 
-  { "name": "Mike Crapo",            "state": "Idaho",          "party": "R", "since": 1999, "funFact": "A member of The Church of Jesus Christ of Latter-day Saints, he does not drink alcohol.", "wiki": "Mike_Crapo" },
-  { "name": "Jim Risch",             "state": "Idaho",          "party": "R", "since": 2009, "funFact": "Served as Idaho Governor for just 9 months in 2006 after the sitting governor resigned.", "wiki": "Jim_Risch" },
+    { "name": "Mike Crapo",            "state": "Idaho",          "party": "R", "since": 1999, "funFact": "A member of The Church of Jesus Christ of Latter-day Saints, he does not drink alcohol.", "wiki": "Mike_Crapo" },
+    { "name": "Jim Risch",             "state": "Idaho",          "party": "R", "since": 2009, "funFact": "Served as Idaho Governor for just 9 months in 2006 after the sitting governor resigned.", "wiki": "Jim_Risch" },
 
-  { "name": "Tammy Duckworth",       "state": "Illinois",       "party": "D", "since": 2017, "funFact": "Lost both legs serving as a Black Hawk helicopter pilot in Iraq in 2004.", "wiki": "Tammy_Duckworth" },
-  { "name": "Dick Durbin",           "state": "Illinois",       "party": "D", "since": 1997, "funFact": "Served as Senate Majority Whip, the second-ranking Senate Democrat, for many years.", "wiki": "Dick_Durbin" },
+    { "name": "Tammy Duckworth",       "state": "Illinois",       "party": "D", "since": 2017, "funFact": "Lost both legs serving as a Black Hawk helicopter pilot in Iraq in 2004.", "wiki": "Tammy_Duckworth" },
+    { "name": "Dick Durbin",           "state": "Illinois",       "party": "D", "since": 1997, "funFact": "Served as Senate Majority Whip, the second-ranking Senate Democrat, for many years.", "wiki": "Dick_Durbin", "leaving": true },
+    { "name": "Juliana Stratton",      "state": "Illinois",       "party": "D", "since": 2027, "funFact": "Illinois' first Black lieutenant governor, she beat two sitting congressmen in the primary to succeed Dick Durbin.", "wiki": "Juliana_Stratton", "incoming": true },
 
-  { "name": "Todd Young",            "state": "Indiana",        "party": "R", "since": 2017, "funFact": "Marine Corps veteran and former CIA analyst before becoming a congressman.", "wiki": "Todd_Young" },
-  { "name": "Jim Banks",             "state": "Indiana",        "party": "R", "since": 2025, "funFact": "Navy Reserve officer who served in Afghanistan, and former U.S. Representative.", "wiki": "Jim_Banks" },
+    { "name": "Todd Young",            "state": "Indiana",        "party": "R", "since": 2017, "funFact": "Marine Corps veteran and former CIA analyst before becoming a congressman.", "wiki": "Todd_Young" },
+    { "name": "Jim Banks",             "state": "Indiana",        "party": "R", "since": 2025, "funFact": "Navy Reserve officer who served in Afghanistan, and former U.S. Representative.", "wiki": "Jim_Banks" },
 
-  { "name": "Chuck Grassley",        "state": "Iowa",           "party": "R", "since": 1981, "funFact": "One of the longest-serving senators in U.S. history. Famously tends his own corn and soybean farm.", "wiki": "Chuck_Grassley" },
-  { "name": "Joni Ernst",            "state": "Iowa",           "party": "R", "since": 2015, "funFact": "Former combat veteran and Iowa National Guard commander who ran memorable 'make 'em squeal' campaign ads.", "wiki": "Joni_Ernst" },
+    { "name": "Chuck Grassley",        "state": "Iowa",           "party": "R", "since": 1981, "funFact": "One of the longest-serving senators in U.S. history. Famously tends his own corn and soybean farm.", "wiki": "Chuck_Grassley" },
+    { "name": "Joni Ernst",            "state": "Iowa",           "party": "R", "since": 2015, "funFact": "Former combat veteran and Iowa National Guard commander who ran memorable 'make 'em squeal' campaign ads.", "wiki": "Joni_Ernst", "leaving": true },
+    { "name": "Josh Turek",            "state": "Iowa",           "party": "D", "since": 2027, "funFact": "Four-time Paralympian who won wheelchair basketball gold medals for Team USA in 2016 and 2020.", "wiki": "Josh_Turek", "incoming": true },
 
-  { "name": "Jerry Moran",           "state": "Kansas",         "party": "R", "since": 2011, "funFact": "Grew up on a farm in Plainville, Kansas, and has a long record of advocating for rural America.", "wiki": "Jerry_Moran" },
-  { "name": "Roger Marshall",        "state": "Kansas",         "party": "R", "since": 2021, "funFact": "OB/GYN physician who delivered over 5,000 babies before entering politics.", "wiki": "Roger_Marshall_(politician)" },
+    { "name": "Jerry Moran",           "state": "Kansas",         "party": "R", "since": 2011, "funFact": "Grew up on a farm in Plainville, Kansas, and has a long record of advocating for rural America.", "wiki": "Jerry_Moran" },
+    { "name": "Roger Marshall",        "state": "Kansas",         "party": "R", "since": 2021, "funFact": "OB/GYN physician who delivered over 5,000 babies before entering politics.", "wiki": "Roger_Marshall_(politician)", "leaving": true },
+    { "name": "Adam Hamilton",         "state": "Kansas",         "party": "D", "since": 2027, "funFact": "Senior pastor of the largest United Methodist congregation in the U.S. and the first Democrat to win a Kansas Senate race since 1932.", "wiki": "Adam_Hamilton_(pastor)", "incoming": true },
 
-  { "name": "Mitch McConnell",       "state": "Kentucky",       "party": "R", "since": 1985, "funFact": "Longest-serving Senate Republican leader in history.", "wiki": "Mitch_McConnell" },
-  { "name": "Rand Paul",             "state": "Kentucky",       "party": "R", "since": 2011, "funFact": "Board-certified ophthalmologist who founded his own certification board after a dispute with the official board.", "wiki": "Rand_Paul" },
+    { "name": "Mitch McConnell",       "state": "Kentucky",       "party": "R", "since": 1985, "funFact": "Longest-serving Senate Republican leader in history.", "wiki": "Mitch_McConnell", "leaving": true },
+    { "name": "Rand Paul",             "state": "Kentucky",       "party": "R", "since": 2011, "funFact": "Board-certified ophthalmologist who founded his own certification board after a dispute with the official board.", "wiki": "Rand_Paul" },
+    { "name": "Andy Barr",             "state": "Kentucky",       "party": "R", "since": 2027, "funFact": "Represented Kentucky's Lexington-area 6th district in the House for over a decade before winning Mitch McConnell's open seat.", "wiki": "Andy_Barr", "incoming": true },
 
-  { "name": "Bill Cassidy",          "state": "Louisiana",      "party": "R", "since": 2015, "funFact": "Gastroenterologist who helped establish a free health clinic for uninsured patients in Baton Rouge.", "wiki": "Bill_Cassidy" },
-  { "name": "John Kennedy",          "state": "Louisiana",      "party": "R", "since": 2017, "funFact": "Known for colorful one-liners on the Senate floor. Studied law at Oxford on a Rhodes Scholarship.", "wiki": "John_Kennedy_(Louisiana_politician)" },
+    { "name": "Bill Cassidy",          "state": "Louisiana",      "party": "R", "since": 2015, "funFact": "Gastroenterologist who helped establish a free health clinic for uninsured patients in Baton Rouge.", "wiki": "Bill_Cassidy", "leaving": true },
+    { "name": "John Kennedy",          "state": "Louisiana",      "party": "R", "since": 2017, "funFact": "Known for colorful one-liners on the Senate floor. Studied law at Oxford on a Rhodes Scholarship.", "wiki": "John_Kennedy_(Louisiana_politician)" },
+    { "name": "Julia Letlow",          "state": "Louisiana",      "party": "R", "since": 2027, "funFact": "First Republican woman elected to the Senate from Louisiana. She first won her House seat after her husband died of COVID-19 before he could be sworn in.", "wiki": "Julia_Letlow", "incoming": true },
 
-  { "name": "Susan Collins",         "state": "Maine",          "party": "R", "since": 1997, "funFact": "Known as a moderate Republican, she is the longest-serving senator in Maine history.", "wiki": "Susan_Collins" },
-  { "name": "Angus King",            "state": "Maine",          "party": "I", "since": 2013, "funFact": "One of two independent senators who caucuses with Democrats. Former two-term Maine governor.", "wiki": "Angus_King" },
+    { "name": "Susan Collins",         "state": "Maine",          "party": "R", "since": 1997, "funFact": "Known as a moderate Republican, she is the longest-serving senator in Maine history.", "wiki": "Susan_Collins", "leaving": true },
+    { "name": "Angus King",            "state": "Maine",          "party": "I", "since": 2013, "funFact": "One of two independent senators who caucuses with Democrats. Former two-term Maine governor.", "wiki": "Angus_King" },
+    { "name": "Troy Jackson",          "state": "Maine",          "party": "D", "since": 2027, "funFact": "Former logger from tiny Allagash who rose to Maine Senate president, then unseated Susan Collins.", "wiki": "Troy_Jackson", "incoming": true },
 
-  { "name": "Chris Van Hollen",      "state": "Maryland",       "party": "D", "since": 2017, "funFact": "Born in Karachi, Pakistan, where his father was a U.S. diplomat.", "wiki": "Chris_Van_Hollen" },
-  { "name": "Angela Alsobrooks",     "state": "Maryland",       "party": "D", "since": 2025, "funFact": "Former Prince George's County Executive and the first Black woman elected to the Senate from Maryland.", "wiki": "Angela_Alsobrooks" },
+    { "name": "Chris Van Hollen",      "state": "Maryland",       "party": "D", "since": 2017, "funFact": "Born in Karachi, Pakistan, where his father was a U.S. diplomat.", "wiki": "Chris_Van_Hollen" },
+    { "name": "Angela Alsobrooks",     "state": "Maryland",       "party": "D", "since": 2025, "funFact": "Former Prince George's County Executive and the first Black woman elected to the Senate from Maryland.", "wiki": "Angela_Alsobrooks" },
 
-  { "name": "Elizabeth Warren",      "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Former Harvard Law professor who helped create the Consumer Financial Protection Bureau.", "wiki": "Elizabeth_Warren" },
-  { "name": "Ed Markey",             "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Co-author of the Green New Deal resolution. Served in the House for 37 years before the Senate.", "wiki": "Ed_Markey" },
+    { "name": "Elizabeth Warren",      "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Former Harvard Law professor who helped create the Consumer Financial Protection Bureau.", "wiki": "Elizabeth_Warren" },
+    { "name": "Ed Markey",             "state": "Massachusetts",  "party": "D", "since": 2013, "funFact": "Co-author of the Green New Deal resolution. Served in the House for 37 years before the Senate.", "wiki": "Ed_Markey" },
 
-  { "name": "Gary Peters",           "state": "Michigan",       "party": "D", "since": 2015, "funFact": "Navy Reserve officer and former investment adviser who is a licensed skydiver.", "wiki": "Gary_Peters" },
-  { "name": "Elissa Slotkin",        "state": "Michigan",       "party": "D", "since": 2025, "funFact": "Former CIA analyst and Defense Department official who served three tours in Iraq.", "wiki": "Elissa_Slotkin" },
+    { "name": "Gary Peters",           "state": "Michigan",       "party": "D", "since": 2015, "funFact": "Navy Reserve officer and former investment adviser who is a licensed skydiver.", "wiki": "Gary_Peters", "leaving": true },
+    { "name": "Elissa Slotkin",        "state": "Michigan",       "party": "D", "since": 2025, "funFact": "Former CIA analyst and Defense Department official who served three tours in Iraq.", "wiki": "Elissa_Slotkin" },
+    { "name": "Abdul El-Sayed",        "state": "Michigan",       "party": "D", "since": 2027, "funFact": "Physician, epidemiologist, and Rhodes Scholar who is the first Muslim American elected to the U.S. Senate.", "wiki": "Abdul_El-Sayed", "incoming": true },
 
-  { "name": "Amy Klobuchar",         "state": "Minnesota",      "party": "D", "since": 2007, "funFact": "First woman elected to the Senate from Minnesota. Her father Al Klobuchar was a legendary sportswriter.", "wiki": "Amy_Klobuchar" },
-  { "name": "Tina Smith",            "state": "Minnesota",      "party": "D", "since": 2018, "funFact": "Former Planned Parenthood executive and Lt. Governor appointed to fill Al Franken's seat.", "wiki": "Tina_Smith" },
+    { "name": "Amy Klobuchar",         "state": "Minnesota",      "party": "D", "since": 2007, "funFact": "First woman elected to the Senate from Minnesota. Her father Al Klobuchar was a legendary sportswriter.", "wiki": "Amy_Klobuchar", "leaving": true, "leavesOn": "2027-01-04" },
+    { "name": "Tina Smith",            "state": "Minnesota",      "party": "D", "since": 2018, "funFact": "Former Planned Parenthood executive and Lt. Governor appointed to fill Al Franken's seat.", "wiki": "Tina_Smith", "leaving": true },
+    { "name": "Peggy Flanagan",        "state": "Minnesota",      "party": "D", "since": 2027, "funFact": "Citizen of the White Earth Nation. She and Alaska's Mary Peltola are the first Native American women elected to the Senate.", "wiki": "Peggy_Flanagan", "incoming": true },
 
-  { "name": "Roger Wicker",          "state": "Mississippi",    "party": "R", "since": 2007, "funFact": "Avid musician who plays multiple instruments. Received a threatening letter via mail in 2013.", "wiki": "Roger_Wicker" },
-  { "name": "Cindy Hyde-Smith",      "state": "Mississippi",    "party": "R", "since": 2018, "funFact": "First woman to represent Mississippi in Congress, appointed then elected in a 2018 runoff.", "wiki": "Cindy_Hyde-Smith" },
+    { "name": "Roger Wicker",          "state": "Mississippi",    "party": "R", "since": 2007, "funFact": "Avid musician who plays multiple instruments. Received a threatening letter via mail in 2013.", "wiki": "Roger_Wicker" },
+    { "name": "Cindy Hyde-Smith",      "state": "Mississippi",    "party": "R", "since": 2018, "funFact": "First woman to represent Mississippi in Congress, appointed then elected in a 2018 runoff.", "wiki": "Cindy_Hyde-Smith", "leaving": true },
+    { "name": "Scott Colom",           "state": "Mississippi",    "party": "D", "since": 2027, "funFact": "Unseated Cindy Hyde-Smith, who had blocked his 2022 nomination to be a federal judge. First Black senator from Mississippi since the 1880s.", "wiki": "Scott_Colom", "incoming": true },
 
-  { "name": "Josh Hawley",           "state": "Missouri",       "party": "R", "since": 2019, "funFact": "Yale Law graduate and former Missouri AG.", "wiki": "Josh_Hawley" },
-  { "name": "Eric Schmitt",          "state": "Missouri",       "party": "R", "since": 2023, "funFact": "Former Missouri Attorney General who filed over 40 lawsuits against the Biden administration.", "wiki": "Eric_Schmitt" },
+    { "name": "Josh Hawley",           "state": "Missouri",       "party": "R", "since": 2019, "funFact": "Yale Law graduate and former Missouri AG.", "wiki": "Josh_Hawley" },
+    { "name": "Eric Schmitt",          "state": "Missouri",       "party": "R", "since": 2023, "funFact": "Former Missouri Attorney General who filed over 40 lawsuits against the Biden administration.", "wiki": "Eric_Schmitt" },
 
-  { "name": "Steve Daines",          "state": "Montana",        "party": "R", "since": 2015, "funFact": "Worked for Procter & Gamble in China for several years before returning to Montana.", "wiki": "Steve_Daines" },
-  { "name": "Tim Sheehy",            "state": "Montana",        "party": "R", "since": 2025, "funFact": "Navy SEAL veteran and founder of Bridger Aerospace, a Montana aerial firefighting company.", "wiki": "Tim_Sheehy" },
+    { "name": "Steve Daines",          "state": "Montana",        "party": "R", "since": 2015, "funFact": "Worked for Procter & Gamble in China for several years before returning to Montana.", "wiki": "Steve_Daines", "leaving": true },
+    { "name": "Tim Sheehy",            "state": "Montana",        "party": "R", "since": 2025, "funFact": "Navy SEAL veteran and founder of Bridger Aerospace, a Montana aerial firefighting company.", "wiki": "Tim_Sheehy" },
+    { "name": "Kurt Alme",             "state": "Montana",        "party": "R", "since": 2027, "funFact": "Two-time U.S. attorney for Montana who filed for the Senate race just minutes before the deadline.", "wiki": "Kurt_Alme", "incoming": true },
 
-  { "name": "Deb Fischer",           "state": "Nebraska",       "party": "R", "since": 2013, "funFact": "Raises cattle on her family's ranch near Valentine, Nebraska.", "wiki": "Deb_Fischer" },
-  { "name": "Pete Ricketts",         "state": "Nebraska",       "party": "R", "since": 2023, "funFact": "Part-owner of the Chicago Cubs. Former two-term Nebraska governor appointed to the Senate.", "wiki": "Pete_Ricketts" },
+    { "name": "Deb Fischer",           "state": "Nebraska",       "party": "R", "since": 2013, "funFact": "Raises cattle on her family's ranch near Valentine, Nebraska.", "wiki": "Deb_Fischer" },
+    { "name": "Pete Ricketts",         "state": "Nebraska",       "party": "R", "since": 2023, "funFact": "Part-owner of the Chicago Cubs. Former two-term Nebraska governor appointed to the Senate.", "wiki": "Pete_Ricketts" },
 
-  { "name": "Catherine Cortez Masto","state": "Nevada",         "party": "D", "since": 2017, "funFact": "First Latina U.S. senator in history. Served as Nevada's Attorney General for eight years.", "wiki": "Catherine_Cortez_Masto" },
-  { "name": "Jacky Rosen",           "state": "Nevada",         "party": "D", "since": 2019, "funFact": "Former computer programmer and synagogue president who had never held public office before her House win.", "wiki": "Jacky_Rosen" },
+    { "name": "Catherine Cortez Masto", "state": "Nevada",         "party": "D", "since": 2017, "funFact": "First Latina U.S. senator in history. Served as Nevada's Attorney General for eight years.", "wiki": "Catherine_Cortez_Masto" },
+    { "name": "Jacky Rosen",           "state": "Nevada",         "party": "D", "since": 2019, "funFact": "Former computer programmer and synagogue president who had never held public office before her House win.", "wiki": "Jacky_Rosen" },
 
-  { "name": "Jeanne Shaheen",        "state": "New Hampshire",  "party": "D", "since": 2009, "funFact": "First person in U.S. history to be elected both governor and U.S. senator in the same state.", "wiki": "Jeanne_Shaheen" },
-  { "name": "Maggie Hassan",         "state": "New Hampshire",  "party": "D", "since": 2017, "funFact": "Former two-term New Hampshire governor. Her advocacy for disability rights was shaped by her son's cerebral palsy.", "wiki": "Maggie_Hassan" },
+    { "name": "Jeanne Shaheen",        "state": "New Hampshire",  "party": "D", "since": 2009, "funFact": "First person in U.S. history to be elected both governor and U.S. senator in the same state.", "wiki": "Jeanne_Shaheen", "leaving": true },
+    { "name": "Maggie Hassan",         "state": "New Hampshire",  "party": "D", "since": 2017, "funFact": "Former two-term New Hampshire governor. Her advocacy for disability rights was shaped by her son's cerebral palsy.", "wiki": "Maggie_Hassan" },
+    { "name": "Chris Pappas",          "state": "New Hampshire",  "party": "D", "since": 2027, "funFact": "First openly gay man elected to the U.S. Senate. His family runs Manchester's Puritan Backroom, famous for inventing chicken tenders.", "wiki": "Chris_Pappas_(American_politician)", "incoming": true },
 
-  { "name": "Cory Booker",           "state": "New Jersey",     "party": "D", "since": 2013, "funFact": "Vegan who famously moved into a Newark housing project as mayor to better understand residents' lives.", "wiki": "Cory_Booker" },
-  { "name": "Andy Kim",              "state": "New Jersey",     "party": "D", "since": 2025, "funFact": "Former National Security Council director and the first Korean American senator.", "wiki": "Andy_Kim" },
+    { "name": "Cory Booker",           "state": "New Jersey",     "party": "D", "since": 2013, "funFact": "Vegan who famously moved into a Newark housing project as mayor to better understand residents' lives.", "wiki": "Cory_Booker" },
+    { "name": "Andy Kim",              "state": "New Jersey",     "party": "D", "since": 2025, "funFact": "Former National Security Council director and the first Korean American senator.", "wiki": "Andy_Kim" },
 
-  { "name": "Martin Heinrich",       "state": "New Mexico",     "party": "D", "since": 2013, "funFact": "Mechanical engineer by training and avid hunter, he brings a rural perspective to Democratic environmental debates.", "wiki": "Martin_Heinrich" },
-  { "name": "Ben Ray Luján",         "state": "New Mexico",     "party": "D", "since": 2021, "funFact": "First Native American senator from New Mexico, with Tewa Pueblo heritage.", "wiki": "Ben_Ray_Luján" },
+    { "name": "Martin Heinrich",       "state": "New Mexico",     "party": "D", "since": 2013, "funFact": "Mechanical engineer by training and avid hunter, he brings a rural perspective to Democratic environmental debates.", "wiki": "Martin_Heinrich" },
+    { "name": "Ben Ray Luján",         "state": "New Mexico",     "party": "D", "since": 2021, "funFact": "First Native American senator from New Mexico, with Tewa Pueblo heritage.", "wiki": "Ben_Ray_Luján" },
 
-  { "name": "Chuck Schumer",         "state": "New York",       "party": "D", "since": 1999, "funFact": "Senate Majority Leader known for holding weekly Sunday press conferences to drive the week's news cycle.", "wiki": "Chuck_Schumer" },
-  { "name": "Kirsten Gillibrand",    "state": "New York",       "party": "D", "since": 2009, "funFact": "Appointed to Hillary Clinton's seat in 2009. Has carried a handgun in her pickup truck.", "wiki": "Kirsten_Gillibrand" },
+    { "name": "Chuck Schumer",         "state": "New York",       "party": "D", "since": 1999, "funFact": "Senate Majority Leader known for holding weekly Sunday press conferences to drive the week's news cycle.", "wiki": "Chuck_Schumer" },
+    { "name": "Kirsten Gillibrand",    "state": "New York",       "party": "D", "since": 2009, "funFact": "Appointed to Hillary Clinton's seat in 2009. Has carried a handgun in her pickup truck.", "wiki": "Kirsten_Gillibrand" },
 
-  { "name": "Thom Tillis",           "state": "North Carolina", "party": "R", "since": 2015, "funFact": "Started his career at IBM and worked his way up to executive director of PricewaterhouseCoopers.", "wiki": "Thom_Tillis" },
-  { "name": "Ted Budd",              "state": "North Carolina", "party": "R", "since": 2023, "funFact": "Owner of a gun shop and shooting range in Advance, NC called ProShots Products.", "wiki": "Ted_Budd" },
+    { "name": "Thom Tillis",           "state": "North Carolina", "party": "R", "since": 2015, "funFact": "Started his career at IBM and worked his way up to executive director of PricewaterhouseCoopers.", "wiki": "Thom_Tillis", "leaving": true },
+    { "name": "Ted Budd",              "state": "North Carolina", "party": "R", "since": 2023, "funFact": "Owner of a gun shop and shooting range in Advance, NC called ProShots Products.", "wiki": "Ted_Budd" },
+    { "name": "Roy Cooper",            "state": "North Carolina", "party": "D", "since": 2027, "funFact": "Former two-term governor and North Carolina's longest-serving attorney general.", "wiki": "Roy_Cooper", "incoming": true },
 
-  { "name": "John Hoeven",           "state": "North Dakota",   "party": "R", "since": 2011, "funFact": "Former five-term North Dakota governor who oversaw a major oil boom in the Bakken formation.", "wiki": "John_Hoeven" },
-  { "name": "Kevin Cramer",          "state": "North Dakota",   "party": "R", "since": 2019, "funFact": "Former North Dakota Public Service Commissioner and an ordained minister.", "wiki": "Kevin_Cramer" },
+    { "name": "John Hoeven",           "state": "North Dakota",   "party": "R", "since": 2011, "funFact": "Former five-term North Dakota governor who oversaw a major oil boom in the Bakken formation.", "wiki": "John_Hoeven" },
+    { "name": "Kevin Cramer",          "state": "North Dakota",   "party": "R", "since": 2019, "funFact": "Former North Dakota Public Service Commissioner and an ordained minister.", "wiki": "Kevin_Cramer" },
 
-  { "name": "Bernie Moreno",         "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Colombian-born businessman and car dealership owner endorsed by Donald Trump over the incumbent.", "wiki": "Bernie_Moreno" },
-  { "name": "Jon Husted",            "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Former Ohio Lt. Governor and Secretary of State, appointed to fill JD Vance's vacated seat.", "wiki": "Jon_Husted" },
+    { "name": "Bernie Moreno",         "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Colombian-born businessman and car dealership owner endorsed by Donald Trump over the incumbent.", "wiki": "Bernie_Moreno" },
+    { "name": "Jon Husted",            "state": "Ohio",           "party": "R", "since": 2025, "funFact": "Former Ohio Lt. Governor and Secretary of State, appointed to fill JD Vance's vacated seat.", "wiki": "Jon_Husted", "leaving": true },
+    { "name": "Sherrod Brown",         "state": "Ohio",           "party": "D", "since": 2026, "funFact": "Lost his Senate seat in 2024, then won Ohio's other seat in 2026, the first senator to win his way back after losing re-election since 1988.", "wiki": "Sherrod_Brown", "incoming": true, "termStart": "2026-12-15" },
 
-  { "name": "Alan Armstrong",       "state": "Oklahoma",       "party": "R", "since": 2026, "funFact": "Fourth-generation oil and gas worker who spent 14 years as CEO of Fortune 500 giant Williams Companies. Appointed as a temporary 'caretaker' senator after agreeing not to run for a full term in 2026.", "wiki": "Alan_S._Armstrong" },
-  { "name": "James Lankford",        "state": "Oklahoma",       "party": "R", "since": 2015, "funFact": "Former Baptist youth camp director who negotiated a bipartisan border security deal in early 2024.", "wiki": "James_Lankford" },
+    { "name": "Alan Armstrong",        "state": "Oklahoma",       "party": "R", "since": 2026, "funFact": "Fourth-generation oil and gas worker who spent 14 years as CEO of Fortune 500 giant Williams Companies. Appointed as a temporary 'caretaker' senator after agreeing not to run for a full term in 2026.", "wiki": "Alan_S._Armstrong", "leaving": true },
+    { "name": "James Lankford",        "state": "Oklahoma",       "party": "R", "since": 2015, "funFact": "Former Baptist youth camp director who negotiated a bipartisan border security deal in early 2024.", "wiki": "James_Lankford" },
+    { "name": "Kevin Hern",            "state": "Oklahoma",       "party": "R", "since": 2027, "funFact": "Engineer turned businessman who owned 18 McDonald's franchises in the Tulsa area before entering Congress.", "wiki": "Kevin_Hern", "incoming": true },
 
-  { "name": "Ron Wyden",             "state": "Oregon",         "party": "D", "since": 1996, "funFact": "Co-founder of the Oregon Legal Services Center and a leading advocate for internet privacy rights.", "wiki": "Ron_Wyden" },
-  { "name": "Jeff Merkley",          "state": "Oregon",         "party": "D", "since": 2009, "funFact": "Only senator to have endorsed Bernie Sanders in 2016. Sleeps on a cot in his Senate office.", "wiki": "Jeff_Merkley" },
+    { "name": "Ron Wyden",             "state": "Oregon",         "party": "D", "since": 1996, "funFact": "Co-founder of the Oregon Legal Services Center and a leading advocate for internet privacy rights.", "wiki": "Ron_Wyden" },
+    { "name": "Jeff Merkley",          "state": "Oregon",         "party": "D", "since": 2009, "funFact": "Only senator to have endorsed Bernie Sanders in 2016. Sleeps on a cot in his Senate office.", "wiki": "Jeff_Merkley" },
 
-  { "name": "John Fetterman",        "state": "Pennsylvania",   "party": "D", "since": 2023, "funFact": "Known for wearing Carhartt shorts and hoodies in the Senate chamber, prompting a dress code debate.", "wiki": "John_Fetterman" },
-  { "name": "Dave McCormick",        "state": "Pennsylvania",   "party": "R", "since": 2025, "funFact": "Former hedge fund CEO who served in the U.S. Army as a paratrooper with the 82nd Airborne Division.", "wiki": "Dave_McCormick" },
+    { "name": "John Fetterman",        "state": "Pennsylvania",   "party": "D", "since": 2023, "funFact": "Known for wearing Carhartt shorts and hoodies in the Senate chamber, prompting a dress code debate.", "wiki": "John_Fetterman" },
+    { "name": "Dave McCormick",        "state": "Pennsylvania",   "party": "R", "since": 2025, "funFact": "Former hedge fund CEO who served in the U.S. Army as a paratrooper with the 82nd Airborne Division.", "wiki": "Dave_McCormick" },
 
-  { "name": "Jack Reed",             "state": "Rhode Island",   "party": "D", "since": 1997, "funFact": "West Point graduate and former Army Ranger who is the longest-serving senator in Rhode Island history.", "wiki": "Jack_Reed_(politician)" },
-  { "name": "Sheldon Whitehouse",    "state": "Rhode Island",   "party": "D", "since": 2007, "funFact": "Former Rhode Island AG who has given over 290 Senate floor speeches on climate change.", "wiki": "Sheldon_Whitehouse" },
+    { "name": "Jack Reed",             "state": "Rhode Island",   "party": "D", "since": 1997, "funFact": "West Point graduate and former Army Ranger who is the longest-serving senator in Rhode Island history.", "wiki": "Jack_Reed_(politician)" },
+    { "name": "Sheldon Whitehouse",    "state": "Rhode Island",   "party": "D", "since": 2007, "funFact": "Former Rhode Island AG who has given over 290 Senate floor speeches on climate change.", "wiki": "Sheldon_Whitehouse" },
 
-  { "name": "Darline Graham",        "state": "South Carolina", "party": "R", "since": 2026, "funFact": "Appointed to the Senate following the passing of her brother, Lindsey Graham.", "wiki": "Darline_Graham" },
-  { "name": "Tim Scott",             "state": "South Carolina", "party": "R", "since": 2013, "funFact": "First Black Republican senator from the South since Reconstruction. Briefly ran for president in 2024.", "wiki": "Tim_Scott" },
+    { "name": "Darline Graham",        "state": "South Carolina", "party": "R", "since": 2026, "funFact": "Appointed to the Senate following the passing of her brother, Lindsey Graham.", "wiki": "Darline_Graham", "leaving": true },
+    { "name": "Tim Scott",             "state": "South Carolina", "party": "R", "since": 2013, "funFact": "First Black Republican senator from the South since Reconstruction. Briefly ran for president in 2024.", "wiki": "Tim_Scott" },
+    { "name": "Annie Andrews",         "state": "South Carolina", "party": "D", "since": 2027, "funFact": "Pediatrician who is the first woman elected to the Senate from South Carolina and the state's first Democratic Senate winner since 1998.", "wiki": "Annie_Andrews", "incoming": true },
 
-  { "name": "John Thune",            "state": "South Dakota",   "party": "R", "since": 2005, "funFact": "Former college basketball player who unseated Senate Majority Leader Tom Daschle in 2004. Became Senate Majority Leader in 2025.", "wiki": "John_Thune" },
-  { "name": "Mike Rounds",           "state": "South Dakota",   "party": "R", "since": 2015, "funFact": "Former four-term South Dakota governor who worked as an insurance agent before entering politics.", "wiki": "Mike_Rounds" },
+    { "name": "John Thune",            "state": "South Dakota",   "party": "R", "since": 2005, "funFact": "Former college basketball player who unseated Senate Majority Leader Tom Daschle in 2004. Became Senate Majority Leader in 2025.", "wiki": "John_Thune" },
+    { "name": "Mike Rounds",           "state": "South Dakota",   "party": "R", "since": 2015, "funFact": "Former four-term South Dakota governor who worked as an insurance agent before entering politics.", "wiki": "Mike_Rounds" },
 
-  { "name": "Marsha Blackburn",      "state": "Tennessee",      "party": "R", "since": 2019, "funFact": "Former saleswoman who ran a clothing wholesale business before entering the Tennessee legislature.", "wiki": "Marsha_Blackburn" },
-  { "name": "Bill Hagerty",          "state": "Tennessee",      "party": "R", "since": 2021, "funFact": "Former U.S. Ambassador to Japan under President Trump. Speaks Japanese.", "wiki": "Bill_Hagerty" },
+    { "name": "Marsha Blackburn",      "state": "Tennessee",      "party": "R", "since": 2019, "funFact": "Former saleswoman who ran a clothing wholesale business before entering the Tennessee legislature.", "wiki": "Marsha_Blackburn", "leaving": true, "leavesOn": "2027-01-16" },
+    { "name": "Bill Hagerty",          "state": "Tennessee",      "party": "R", "since": 2021, "funFact": "Former U.S. Ambassador to Japan under President Trump. Speaks Japanese.", "wiki": "Bill_Hagerty" },
 
-  { "name": "John Cornyn",           "state": "Texas",          "party": "R", "since": 2002, "funFact": "Former Texas Attorney General and Texas Supreme Court Justice before entering the Senate.", "wiki": "John_Cornyn" },
-  { "name": "Ted Cruz",              "state": "Texas",          "party": "R", "since": 2013, "funFact": "Former Solicitor General of Texas who argued nine cases before the U.S. Supreme Court.", "wiki": "Ted_Cruz" },
+    { "name": "John Cornyn",           "state": "Texas",          "party": "R", "since": 2002, "funFact": "Former Texas Attorney General and Texas Supreme Court Justice before entering the Senate.", "wiki": "John_Cornyn", "leaving": true },
+    { "name": "Ted Cruz",              "state": "Texas",          "party": "R", "since": 2013, "funFact": "Former Solicitor General of Texas who argued nine cases before the U.S. Supreme Court.", "wiki": "Ted_Cruz" },
+    { "name": "James Talarico",        "state": "Texas",          "party": "D", "since": 2027, "funFact": "Former sixth-grade teacher and seminary student who becomes the youngest sitting U.S. senator and the first Democrat to win a Texas Senate race since 1988.", "wiki": "James_Talarico", "incoming": true },
 
-  { "name": "Mike Lee",              "state": "Utah",           "party": "R", "since": 2011, "funFact": "Son of former U.S. Solicitor General Rex Lee. Was a law clerk for Supreme Court Justice Samuel Alito.", "wiki": "Mike_Lee_(U.S._politician)" },
-  { "name": "John Curtis",           "state": "Utah",           "party": "R", "since": 2025, "funFact": "Former mayor of Provo and avid cyclist known as one of the more moderate GOP voices on climate.", "wiki": "John_Curtis_(politician)" },
+    { "name": "Mike Lee",              "state": "Utah",           "party": "R", "since": 2011, "funFact": "Son of former U.S. Solicitor General Rex Lee. Was a law clerk for Supreme Court Justice Samuel Alito.", "wiki": "Mike_Lee_(U.S._politician)" },
+    { "name": "John Curtis",           "state": "Utah",           "party": "R", "since": 2025, "funFact": "Former mayor of Provo and avid cyclist known as one of the more moderate GOP voices on climate.", "wiki": "John_Curtis_(politician)" },
 
-  { "name": "Bernie Sanders",        "state": "Vermont",        "party": "I", "since": 2007, "funFact": "Longest-serving independent in congressional history. Twice ran for the Democratic presidential nomination.", "wiki": "Bernie_Sanders" },
-  { "name": "Peter Welch",           "state": "Vermont",        "party": "D", "since": 2023, "funFact": "First Democrat ever elected to Vermont's at-large House seat, serving 16 years there before the Senate.", "wiki": "Peter_Welch" },
+    { "name": "Bernie Sanders",        "state": "Vermont",        "party": "I", "since": 2007, "funFact": "Longest-serving independent in congressional history. Twice ran for the Democratic presidential nomination.", "wiki": "Bernie_Sanders" },
+    { "name": "Peter Welch",           "state": "Vermont",        "party": "D", "since": 2023, "funFact": "First Democrat ever elected to Vermont's at-large House seat, serving 16 years there before the Senate.", "wiki": "Peter_Welch" },
 
-  { "name": "Mark Warner",           "state": "Virginia",       "party": "D", "since": 2009, "funFact": "Made his fortune as an early investor and promoter of cell phone networks. Former Virginia governor.", "wiki": "Mark_Warner" },
-  { "name": "Tim Kaine",             "state": "Virginia",       "party": "D", "since": 2013, "funFact": "Former mayor of Richmond, Virginia governor, and Hillary Clinton's 2016 running mate. Speaks Spanish fluently.", "wiki": "Tim_Kaine" },
+    { "name": "Mark Warner",           "state": "Virginia",       "party": "D", "since": 2009, "funFact": "Made his fortune as an early investor and promoter of cell phone networks. Former Virginia governor.", "wiki": "Mark_Warner" },
+    { "name": "Tim Kaine",             "state": "Virginia",       "party": "D", "since": 2013, "funFact": "Former mayor of Richmond, Virginia governor, and Hillary Clinton's 2016 running mate. Speaks Spanish fluently.", "wiki": "Tim_Kaine" },
 
-  { "name": "Patty Murray",          "state": "Washington",     "party": "D", "since": 1993, "funFact": "Described herself as 'just a mom in tennis shoes' when she first ran in 1992. Third-longest serving Senate Democrat.", "wiki": "Patty_Murray" },
-  { "name": "Maria Cantwell",        "state": "Washington",     "party": "D", "since": 2001, "funFact": "Former tech executive who worked at RealNetworks and was an early investor in internet companies.", "wiki": "Maria_Cantwell" },
+    { "name": "Patty Murray",          "state": "Washington",     "party": "D", "since": 1993, "funFact": "Described herself as 'just a mom in tennis shoes' when she first ran in 1992. Third-longest serving Senate Democrat.", "wiki": "Patty_Murray" },
+    { "name": "Maria Cantwell",        "state": "Washington",     "party": "D", "since": 2001, "funFact": "Former tech executive who worked at RealNetworks and was an early investor in internet companies.", "wiki": "Maria_Cantwell" },
 
-  { "name": "Shelley Moore Capito",  "state": "West Virginia",  "party": "R", "since": 2015, "funFact": "Daughter of former West Virginia governor Arch Moore. First woman elected to Senate from West Virginia.", "wiki": "Shelley_Moore_Capito" },
-  { "name": "Jim Justice",           "state": "West Virginia",  "party": "R", "since": 2025, "funFact": "Billionaire businessman and owner of The Greenbrier resort. One of the tallest governors in U.S. history at 6'7\".", "wiki": "Jim_Justice" },
+    { "name": "Shelley Moore Capito",  "state": "West Virginia",  "party": "R", "since": 2015, "funFact": "Daughter of former West Virginia governor Arch Moore. First woman elected to Senate from West Virginia.", "wiki": "Shelley_Moore_Capito" },
+    { "name": "Jim Justice",           "state": "West Virginia",  "party": "R", "since": 2025, "funFact": "Billionaire businessman and owner of The Greenbrier resort. One of the tallest governors in U.S. history at 6'7\".", "wiki": "Jim_Justice" },
 
-  { "name": "Ron Johnson",           "state": "Wisconsin",      "party": "R", "since": 2011, "funFact": "Plastics manufacturer who pledged to serve only two terms but ran and won a third in 2022.", "wiki": "Ron_Johnson_(Wisconsin_politician)" },
-  { "name": "Tammy Baldwin",         "state": "Wisconsin",      "party": "D", "since": 2013, "funFact": "First openly gay person elected to the U.S. Senate. Former U.S. Representative for 14 years.", "wiki": "Tammy_Baldwin" },
+    { "name": "Ron Johnson",           "state": "Wisconsin",      "party": "R", "since": 2011, "funFact": "Plastics manufacturer who pledged to serve only two terms but ran and won a third in 2022.", "wiki": "Ron_Johnson_(Wisconsin_politician)" },
+    { "name": "Tammy Baldwin",         "state": "Wisconsin",      "party": "D", "since": 2013, "funFact": "First openly gay person elected to the U.S. Senate. Former U.S. Representative for 14 years.", "wiki": "Tammy_Baldwin" },
 
-  { "name": "John Barrasso",         "state": "Wyoming",        "party": "R", "since": 2007, "funFact": "Orthopedic surgeon who was team physician for the Wyoming Cowboys and Cowgirls athletics.", "wiki": "John_Barrasso" },
-  { "name": "Cynthia Lummis",        "state": "Wyoming",        "party": "R", "since": 2021, "funFact": "Rancher and one of the first members of Congress to hold Bitcoin and advocate for crypto legislation.", "wiki": "Cynthia_Lummis" }
-]
+    { "name": "John Barrasso",         "state": "Wyoming",        "party": "R", "since": 2007, "funFact": "Orthopedic surgeon who was team physician for the Wyoming Cowboys and Cowgirls athletics.", "wiki": "John_Barrasso" },
+    { "name": "Cynthia Lummis",        "state": "Wyoming",        "party": "R", "since": 2021, "funFact": "Rancher and one of the first members of Congress to hold Bitcoin and advocate for crypto legislation.", "wiki": "Cynthia_Lummis", "leaving": true },
+    { "name": "Harriet Hageman",       "state": "Wyoming",        "party": "R", "since": 2027, "funFact": "Grew up on a ranch near Fort Laramie and ousted Liz Cheney from the House in a 2022 landslide.", "wiki": "Harriet_Hageman", "incoming": true }
+  ]
+}

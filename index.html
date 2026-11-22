@@ -74,6 +74,8 @@
                             📖 Learn more on Wikipedia →
                         </a>
                     </div>
+
+                    <div id="leaving-note" class="leaving-note hidden">* Not serving the next term</div>
                 </div>
 
                 <div class="result-actions">
@@ -121,6 +123,12 @@
             </div>
 
             <button id="play-again-btn" class="mode-btn" style="margin-top: 24px;">Play Again</button>
+        </div>
+
+        <!-- Stale-data notice (shown only if the data predates the most recent election) -->
+        <div id="stale-notice" class="stale-notice hidden" role="status">
+            <span id="stale-notice-text"></span>
+            <button id="stale-notice-close" class="stale-notice-close" aria-label="Dismiss">×</button>
         </div>
     </div>
 
